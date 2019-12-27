@@ -24,6 +24,8 @@ Server does all send and receive functions in multithread function sendAndReceiv
 #include <arpa/inet.h>
 #include "Chat.h"
 
+
+
 int main(int argc, char **argv)
 {
     //sockaddr is a structure for handling internet addresses.
