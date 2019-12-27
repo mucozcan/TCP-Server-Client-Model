@@ -1,3 +1,17 @@
+/*
+A server-side code of simple TCP Chat App.
+Author: Mücteba Özcan.
+References: https://beej.us/guide/bgnet/html//index.html
+            https://www.ozanselte.com/c-ile-soket-programlama-rehberi/
+            https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+
+Usage: ./ChatServer [The port number that you want]
+
+        in another terminal: ./ChatClient [Port number that you defined.]
+
+Server does all send and receive functions in multithread function sendAndReceive that defined in Chat.h
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -8,11 +22,7 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
-
-int clientCount = 0;
-
 #include "Chat.h"
- //değişken sorununu çöz (thread function)
 
 int main(int argc, char **argv)
 {
