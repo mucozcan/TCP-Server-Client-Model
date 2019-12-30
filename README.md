@@ -1,2 +1,2 @@
 # Basic-TCP-Socket
-That's a basic tcp server written in C.
+These are the multithreaded TCP server and client applications written in C.
