@@ -14,6 +14,7 @@
 
 int clientCount = 0;
 FILE *errorFile;
+FILE *logFile;
 
 struct client
 {
@@ -32,11 +33,12 @@ void *receiveMessages(void *sockID);
 int createSocket();
 struct sockaddr_in defineSocket();
 void bindSocket(int serverSocket, struct sockaddr_in server);
-void listenConnections(int serverSocket, int backlog);
+void listenConnections(int serverSocket, int backlog, int port);
 int acceptConnection(int server, struct client *client, int clientCount);
 void connectToServer(int clientSocket, struct sockaddr_in server);
 const char *getCurrentTime();
-void logError(char *ErrorString, int errNo);
+void logErrors(char *ErrorString, int errNo);
+void logOperations(char *LogString);
 
 const char *getCurrentTime() //returns current time and date.
 {
@@ -47,11 +49,17 @@ const char *getCurrentTime() //returns current time and date.
     return asctime(info);
 }
 
-void logError(char *errorString, int errNo) //writes errors to a txt file.
+void logErrors(char *errorString, int errNo) //writes errors to a txt file.
 {
     errorFile = fopen("errorLog.txt", "ab");
     fprintf(errorFile, "%s: %s , %s\n", errorString, strerror(errNo), getCurrentTime());
     fclose(errorFile);
+}
+void logOperations(char *LogString)
+{
+    logFile = fopen("operationLog.txt", "ab");
+    fprintf(logFile, "%s, %s", LogString, getCurrentTime());
+    fclose(logFile);
 }
 void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct as parameter and run send and receive functions
                                          //between clients.
@@ -61,6 +69,10 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
     int clientSocket = clientDetail->sockID;
 
     printf("Client %d connected.\n", index + 1);
+    //logging
+    char logString[] = "Connected with client ";
+    sprintf(logString, "%s %d", logString, index + 1);
+    logOperations(logString);
 
     while (1)
     {
@@ -76,7 +88,8 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
             for (int i = 0; i < clientCount; i++)
             {
                 if (i != index)
-                    snprintf(output, 1024, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
+                    snprintf(output, 1024, "Client %d is at socket %d.", i + 1, Client[i].sockID);
+                logOperations(output);
             }
 
             send(clientSocket, output, MAX_DATA, 0);
@@ -93,6 +106,8 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
             read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
             data[read] = '\0';
             send(Client[id].sockID, data, MAX_DATA, 0); //send message to client(ID).
+            sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
+            logOperations(data);
         }
     }
 
@@ -107,6 +122,13 @@ void *receiveMessages(void *sockID)
     {
         char data[MAX_DATA];
         int read = recv(clientSocket, data, MAX_DATA, 0);
+        if(read == 0)
+        {   
+            printf("Connection lost with server.\n");
+            logOperations("Connection lost with server");
+            close(clientSocket);
+            exit(1);
+        }
         data[read] = '\0';
         printf("%s\n", data);
     }
@@ -120,9 +142,10 @@ int createIPv4Socket()
     if (sockfd == ERROR)
     {
         perror("an error occured while creating a socket");
-        logError("an error occured while creating a socket", errno);
+        logErrors("an error occured while creating a socket", errno);
     }
     printf("Created socket.\n");
+    logOperations("Created socket");
     return sockfd;
 }
 //Defining server's address information.
@@ -138,6 +161,8 @@ struct sockaddr_in defineSocket(int port)
                                                 //When you use this value as the address when calling bind(),
                                                 //the socket accepts connections to all the IPs of the machine
     printf("Socket address info is defined.\n");
+    logOperations("Socket address info is defined.");
+
     return Server;
 }
 
@@ -147,19 +172,26 @@ void bindSocket(int serverSocket, struct sockaddr_in server)
     if (bind(serverSocket, (struct sockaddr *)&server, sizeof(server)) == ERROR)
     {
         perror("an error occured while binding");
-        logError("an error occured while binding", errno);
+        logErrors("an error occured while binding", errno);
+        exit(1);
     }
     printf("Socket is binded.\n");
+    logOperations("Socket is binded.");
 }
 
-void listenConnections(int serverSocket, int backlog)
+void listenConnections(int serverSocket, int backlog, int port)
 {
     //listen() tell a socket to listen for incoming connections.
     if (listen(serverSocket, MAX_CLIENT) == ERROR)
     {
         perror("an error occured while listening");
-        logError("an error occured while listening", errno);
+        logErrors("an error occured while listening", errno);
     }
+    printf("Server started listening on port %d.\n", port);
+    //logging
+    char logString[] = "Server started listening on port ";
+    sprintf(logString, "%s %d", logString, port);
+    logOperations(logString);
 }
 
 int acceptConnection(int server, struct client *client, int clientCount)
@@ -168,7 +200,7 @@ int acceptConnection(int server, struct client *client, int clientCount)
     if (connectionSocket == ERROR)
     {
         perror("an error occured while accepting");
-        logError("an error occured while accepting", errno);
+        logErrors("an error occured while accepting", errno);
     }
 
     return connectionSocket;
@@ -180,11 +212,13 @@ void connectToServer(int clientSocket, struct sockaddr_in server)
     if (connect(clientSocket, (struct sockaddr *)&server, sizeof(server)) == ERROR)
     {
         perror("an error occured while connecting to server");
-        logError("an error occured while connecting to server", errno);
+        logErrors("an error occured while connecting to server", errno);
         exit(1); //log it
     }
-
     printf("Connection established with server.\n");
+    char logString[] = "Connection established between server and client at socket";
+    sprintf(logString, "%s %d", logString, clientSocket);
+    logOperations(logString);
 }
 
 #endif

@@ -29,13 +29,25 @@ Client does all receive functions in multithread function receiveMessages that d
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
+#include <signal.h>
 #include "Chat.h"
 
+static volatile int keepRunning = 1;
+static int clientSocket;
 
+void quitHandler(int client)
+{
+    keepRunning = 0;
+    close(clientSocket); //closing socket.
+	char logString[256];
+    printf("\nSocket: %d is closed\nClosing application... Operations and errors logged.\n",clientSocket);
+    sprintf(logString,"Socket: %d is closed, Closing application...",clientSocket);
+    logOperations(logString);
+    exit(1);
+}
 int main(int argc, char **argv)
 {
 	struct sockaddr_in serverAddr;
-	int clientSocket;
 	clientSocket = createIPv4Socket();
 	serverAddr = defineSocket(atoi(argv[1]));
 	connectToServer(clientSocket,serverAddr);
@@ -43,7 +55,7 @@ int main(int argc, char **argv)
 	pthread_t thread;
 	pthread_create(&thread, NULL, receiveMessages, (void *) &clientSocket );
 
-	while(1){
+	while(keepRunning){
 
 		char input[1024];
 		scanf("%s",input);
@@ -69,6 +81,5 @@ int main(int argc, char **argv)
 
 		}
 	}
-	printf("Disconnected with server.\n");
-	close(clientSocket);
+    signal(SIGINT,quitHandler); //closing socket and quit.
 }

@@ -22,23 +22,37 @@ Server does all send and receive functions in multithread function sendAndReceiv
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
+#include <signal.h>
 #include "Chat.h"
 
+static volatile int keepRunning = 1;
+static int serverSocket;
 
+void quitHandler(int server)
+{
+    keepRunning = 0;
+    close(serverSocket); //closing socket.
+    char logString[256];
+    printf("\nSocket: %d is closed\nClosing application... Operations and errors logged.\n",serverSocket);
+    sprintf(logString,"Socket: %d is closed, Closing application...",serverSocket);
+    logOperations(logString);
+    exit(1);
+}
 
 int main(int argc, char **argv)
 {
-    //sockaddr is a structure for handling internet addresses.
+    signal(SIGINT,quitHandler);
+    //sockaddr_in is a structure for handling internet addresses.
     struct sockaddr_in serverAddr;
-    int portNo, serverSocket;
+    int portNo;
     portNo = atoi(argv[1]);
     serverSocket = createIPv4Socket();
     //Defining server's address information.
-    serverAddr = defineSocket(portNo); //passing port number that taken as parameter.
+    serverAddr = defineSocket(portNo); //passing port number that taken as argument.
     bindSocket(serverSocket,serverAddr); //binding socket
-    listenConnections(serverSocket,MAX_CLIENT); //listening incoming connections.
-    printf("Server started listening on port %d.\n", portNo);
-    while (1)
+    listenConnections(serverSocket,MAX_CLIENT,portNo); //listening incoming connections.
+    
+    while (keepRunning)
     {
         //assigning new socket descriptor to client's sockID
         Client[clientCount].sockID = acceptConnection(serverSocket,&Client[clientCount],clientCount);
@@ -48,4 +62,6 @@ int main(int argc, char **argv)
         pthread_create(&thread[clientCount], NULL, sendAndReceive, (void *)&Client[clientCount]);
         clientCount++;
     }
+    signal(SIGINT,quitHandler); //closing socket and quit.
+
 } //end main()
