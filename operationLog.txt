@@ -1,0 +1,2241 @@
+Created socket, Thu Jan 16 14:56:12 2020
+Socket address info is defined., Thu Jan 16 14:56:12 2020
+Socket is binded., Thu Jan 16 14:56:12 2020
+Server started listening on port  4545, Thu Jan 16 14:56:12 2020
+Created socket, Thu Jan 16 14:56:37 2020
+Socket address info is defined., Thu Jan 16 14:56:37 2020
+Connection established between server and client at socket 3, Thu Jan 16 14:56:37 2020
+Connected with client  1, Thu Jan 16 14:56:37 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 14:56:45 2020
+Connection lost with server, Thu Jan 16 14:56:45 2020
+Created socket, Thu Jan 16 14:58:49 2020
+Socket address info is defined., Thu Jan 16 14:58:49 2020
+Socket is binded., Thu Jan 16 14:58:49 2020
+Server started listening on port  4545, Thu Jan 16 14:58:49 2020
+Created socket, Thu Jan 16 14:58:52 2020
+Socket address info is defined., Thu Jan 16 14:58:52 2020
+Connection established between server and client at socket 3, Thu Jan 16 14:58:52 2020
+Connected with client  1, Thu Jan 16 14:58:52 2020
+, Thu Jan 16 14:58:56 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 14:59:04 2020
+Connection lost with server, Thu Jan 16 14:59:04 2020
+Created socket, Thu Jan 16 15:02:32 2020
+Socket address info is defined., Thu Jan 16 15:02:32 2020
+Socket is binded., Thu Jan 16 15:02:32 2020
+Server started listening on port  4545, Thu Jan 16 15:02:32 2020
+Created socket, Thu Jan 16 15:02:35 2020
+Socket address info is defined., Thu Jan 16 15:02:35 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:02:35 2020
+Connected with client  1, Thu Jan 16 15:02:35 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:02:38 2020
+Connection lost with server, Thu Jan 16 15:02:38 2020
+Created socket, Thu Jan 16 15:04:32 2020
+Socket address info is defined., Thu Jan 16 15:04:32 2020
+Socket is binded., Thu Jan 16 15:04:32 2020
+Server started listening on port  4545, Thu Jan 16 15:04:32 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:04:35 2020
+Created socket, Thu Jan 16 15:04:41 2020
+Socket address info is defined., Thu Jan 16 15:04:41 2020
+Socket is binded., Thu Jan 16 15:04:41 2020
+Server started listening on port  4545, Thu Jan 16 15:04:41 2020
+Created socket, Thu Jan 16 15:04:44 2020
+Socket address info is defined., Thu Jan 16 15:04:44 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:04:44 2020
+Connected with client  1, Thu Jan 16 15:04:44 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:04:46 2020
+Connection lost with server, Thu Jan 16 15:04:46 2020
+Created socket, Thu Jan 16 15:05:37 2020
+Socket address info is defined., Thu Jan 16 15:05:37 2020
+Created socket, Thu Jan 16 15:05:41 2020
+Socket address info is defined., Thu Jan 16 15:05:41 2020
+Socket is binded., Thu Jan 16 15:05:41 2020
+Server started listening on port  4542, Thu Jan 16 15:05:41 2020
+Created socket, Thu Jan 16 15:05:48 2020
+Socket address info is defined., Thu Jan 16 15:05:48 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:05:48 2020
+Connected with client  1, Thu Jan 16 15:05:48 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:05:56 2020
+Connection lost with server, Thu Jan 16 15:05:56 2020
+Created socket, Thu Jan 16 15:08:16 2020
+Socket address info is defined., Thu Jan 16 15:08:16 2020
+Socket is binded., Thu Jan 16 15:08:16 2020
+Server started listening on port  4542, Thu Jan 16 15:08:16 2020
+Created socket, Thu Jan 16 15:08:18 2020
+Socket address info is defined., Thu Jan 16 15:08:18 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:08:18 2020
+Connected with client  1, Thu Jan 16 15:08:18 2020
+Connection lost with server, Thu Jan 16 15:08:19 2020
+Created socket, Thu Jan 16 15:09:43 2020
+Socket address info is defined., Thu Jan 16 15:09:43 2020
+Socket is binded., Thu Jan 16 15:09:43 2020
+Server started listening on port  4542, Thu Jan 16 15:09:43 2020
+Created socket, Thu Jan 16 15:09:46 2020
+Socket address info is defined., Thu Jan 16 15:09:46 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:09:46 2020
+Connected with client  1, Thu Jan 16 15:09:46 2020
+Connection lost with server, Thu Jan 16 15:09:46 2020
+Created socket, Thu Jan 16 15:11:59 2020
+Socket address info is defined., Thu Jan 16 15:11:59 2020
+Socket is binded., Thu Jan 16 15:11:59 2020
+Server started listening on port  4542, Thu Jan 16 15:11:59 2020
+Created socket, Thu Jan 16 15:12:01 2020
+Socket address info is defined., Thu Jan 16 15:12:01 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:12:01 2020
+Connected with client  1, Thu Jan 16 15:12:01 2020
+Connection lost with server, Thu Jan 16 15:12:01 2020
+Created socket, Thu Jan 16 15:12:09 2020
+Socket address info is defined., Thu Jan 16 15:12:09 2020
+Created socket, Thu Jan 16 15:12:11 2020
+Socket address info is defined., Thu Jan 16 15:12:11 2020
+Socket is binded., Thu Jan 16 15:12:11 2020
+Server started listening on port  4543, Thu Jan 16 15:12:11 2020
+Created socket, Thu Jan 16 15:12:16 2020
+Socket address info is defined., Thu Jan 16 15:12:16 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:12:16 2020
+Connected with client  1, Thu Jan 16 15:12:16 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:12:24 2020
+Created socket, Thu Jan 16 15:12:32 2020
+Socket address info is defined., Thu Jan 16 15:12:32 2020
+Socket is binded., Thu Jan 16 15:12:32 2020
+Server started listening on port  4544, Thu Jan 16 15:12:32 2020
+Created socket, Thu Jan 16 15:12:37 2020
+Socket address info is defined., Thu Jan 16 15:12:37 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:12:37 2020
+Connected with client  1, Thu Jan 16 15:12:37 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:12:50 2020
+Created socket, Thu Jan 16 15:13:34 2020
+Socket address info is defined., Thu Jan 16 15:13:34 2020
+Socket is binded., Thu Jan 16 15:13:34 2020
+Server started listening on port  4544, Thu Jan 16 15:13:34 2020
+Created socket, Thu Jan 16 15:13:36 2020
+Socket address info is defined., Thu Jan 16 15:13:36 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:13:36 2020
+Connected with client  1, Thu Jan 16 15:13:36 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:13:40 2020
+Connection lost with server, Thu Jan 16 15:13:40 2020
+Created socket, Thu Jan 16 15:13:48 2020
+Socket address info is defined., Thu Jan 16 15:13:48 2020
+Created socket, Thu Jan 16 15:13:50 2020
+Socket address info is defined., Thu Jan 16 15:13:50 2020
+Socket is binded., Thu Jan 16 15:13:50 2020
+Server started listening on port  4545, Thu Jan 16 15:13:50 2020
+Created socket, Thu Jan 16 15:13:56 2020
+Socket address info is defined., Thu Jan 16 15:13:56 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:13:56 2020
+Connected with client  1, Thu Jan 16 15:13:56 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:13:58 2020
+Connection lost with server, Thu Jan 16 15:13:58 2020
+Created socket, Thu Jan 16 15:14:07 2020
+Socket address info is defined., Thu Jan 16 15:14:07 2020
+Created socket, Thu Jan 16 15:14:09 2020
+Socket address info is defined., Thu Jan 16 15:14:09 2020
+Created socket, Thu Jan 16 15:14:11 2020
+Socket address info is defined., Thu Jan 16 15:14:11 2020
+Socket is binded., Thu Jan 16 15:14:11 2020
+Server started listening on port  4543, Thu Jan 16 15:14:11 2020
+Created socket, Thu Jan 16 15:14:15 2020
+Socket address info is defined., Thu Jan 16 15:14:15 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:14:15 2020
+Connected with client  1, Thu Jan 16 15:14:15 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:15:30 2020
+Created socket, Thu Jan 16 15:16:21 2020
+Socket address info is defined., Thu Jan 16 15:16:21 2020
+Socket is binded., Thu Jan 16 15:16:21 2020
+Server started listening on port  4543, Thu Jan 16 15:16:21 2020
+Created socket, Thu Jan 16 15:16:24 2020
+Socket address info is defined., Thu Jan 16 15:16:24 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:16:24 2020
+Connected with client  1, Thu Jan 16 15:16:24 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:16:31 2020
+Connection lost with server, Thu Jan 16 15:16:31 2020
+Created socket, Thu Jan 16 15:16:39 2020
+Socket address info is defined., Thu Jan 16 15:16:39 2020
+Created socket, Thu Jan 16 15:17:53 2020
+Socket address info is defined., Thu Jan 16 15:17:53 2020
+Socket is binded., Thu Jan 16 15:17:53 2020
+Server started listening on port  4543, Thu Jan 16 15:17:53 2020
+Created socket, Thu Jan 16 15:17:59 2020
+Socket address info is defined., Thu Jan 16 15:17:59 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:17:59 2020
+Connected with client  1, Thu Jan 16 15:17:59 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:18:29 2020
+Connection lost with server, Thu Jan 16 15:18:29 2020
+Created socket, Thu Jan 16 15:18:56 2020
+Socket address info is defined., Thu Jan 16 15:18:56 2020
+Created socket, Thu Jan 16 15:18:58 2020
+Socket address info is defined., Thu Jan 16 15:18:58 2020
+Socket is binded., Thu Jan 16 15:18:58 2020
+Server started listening on port  4546, Thu Jan 16 15:18:58 2020
+Created socket, Thu Jan 16 15:19:04 2020
+Socket address info is defined., Thu Jan 16 15:19:04 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:19:04 2020
+Connected with client  1, Thu Jan 16 15:19:04 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:19:14 2020
+Connection lost with server, Thu Jan 16 15:19:14 2020
+Created socket, Thu Jan 16 15:19:18 2020
+Socket address info is defined., Thu Jan 16 15:19:18 2020
+Created socket, Thu Jan 16 15:19:20 2020
+Socket address info is defined., Thu Jan 16 15:19:20 2020
+Socket is binded., Thu Jan 16 15:19:20 2020
+Server started listening on port  4542, Thu Jan 16 15:19:20 2020
+Created socket, Thu Jan 16 15:19:27 2020
+Socket address info is defined., Thu Jan 16 15:19:27 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:19:27 2020
+Connected with client  1, Thu Jan 16 15:19:27 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:20:06 2020
+Connection lost with server, Thu Jan 16 15:20:06 2020
+Created socket, Thu Jan 16 15:20:13 2020
+Socket address info is defined., Thu Jan 16 15:20:13 2020
+Created socket, Thu Jan 16 15:20:15 2020
+Socket address info is defined., Thu Jan 16 15:20:15 2020
+Socket is binded., Thu Jan 16 15:20:15 2020
+Server started listening on port  4544, Thu Jan 16 15:20:15 2020
+Created socket, Thu Jan 16 15:20:22 2020
+Socket address info is defined., Thu Jan 16 15:20:22 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:20:22 2020
+Connected with client  1, Thu Jan 16 15:20:22 2020
+Connection lost with server, Thu Jan 16 15:20:22 2020
+Created socket, Thu Jan 16 15:21:29 2020
+Socket address info is defined., Thu Jan 16 15:21:29 2020
+Socket is binded., Thu Jan 16 15:21:29 2020
+Server started listening on port  4544, Thu Jan 16 15:21:29 2020
+Created socket, Thu Jan 16 15:21:33 2020
+Socket address info is defined., Thu Jan 16 15:21:33 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:21:33 2020
+Connected with client  1, Thu Jan 16 15:21:33 2020
+Connection lost with server, Thu Jan 16 15:21:33 2020
+Created socket, Thu Jan 16 15:21:57 2020
+Socket address info is defined., Thu Jan 16 15:21:57 2020
+Created socket, Thu Jan 16 15:22:00 2020
+Socket address info is defined., Thu Jan 16 15:22:00 2020
+Socket is binded., Thu Jan 16 15:22:00 2020
+Server started listening on port  4543, Thu Jan 16 15:22:00 2020
+Created socket, Thu Jan 16 15:22:07 2020
+Socket address info is defined., Thu Jan 16 15:22:07 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:22:07 2020
+Connected with client  1, Thu Jan 16 15:22:07 2020
+Connection lost with server, Thu Jan 16 15:22:07 2020
+Created socket, Thu Jan 16 15:22:13 2020
+Socket address info is defined., Thu Jan 16 15:22:13 2020
+Created socket, Thu Jan 16 15:22:14 2020
+Socket address info is defined., Thu Jan 16 15:22:14 2020
+Created socket, Thu Jan 16 15:22:17 2020
+Socket address info is defined., Thu Jan 16 15:22:17 2020
+Socket is binded., Thu Jan 16 15:22:17 2020
+Server started listening on port  4541, Thu Jan 16 15:22:17 2020
+Created socket, Thu Jan 16 15:22:21 2020
+Socket address info is defined., Thu Jan 16 15:22:21 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:22:21 2020
+Connected with client  1, Thu Jan 16 15:22:21 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:22:26 2020
+Connection lost with server, Thu Jan 16 15:22:26 2020
+Created socket, Thu Jan 16 15:24:24 2020
+Socket address info is defined., Thu Jan 16 15:24:24 2020
+Socket is binded., Thu Jan 16 15:24:24 2020
+Server started listening on port  4541, Thu Jan 16 15:24:24 2020
+Created socket, Thu Jan 16 15:24:26 2020
+Socket address info is defined., Thu Jan 16 15:24:26 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:24:26 2020
+Connected with client  1, Thu Jan 16 15:24:26 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:24:28 2020
+Connection lost with server, Thu Jan 16 15:24:28 2020
+Created socket, Thu Jan 16 15:24:36 2020
+Socket address info is defined., Thu Jan 16 15:24:36 2020
+Created socket, Thu Jan 16 15:24:43 2020
+Socket address info is defined., Thu Jan 16 15:24:43 2020
+Socket is binded., Thu Jan 16 15:24:43 2020
+Server started listening on port  4540, Thu Jan 16 15:24:43 2020
+Created socket, Thu Jan 16 15:24:45 2020
+Socket address info is defined., Thu Jan 16 15:24:45 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:24:45 2020
+Connected with client  1, Thu Jan 16 15:24:45 2020
+Created socket, Thu Jan 16 15:24:51 2020
+Socket address info is defined., Thu Jan 16 15:24:51 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:24:51 2020
+Connected with client  2, Thu Jan 16 15:24:51 2020
+Client 1 is at socket 4., Thu Jan 16 15:25:01 2020
+Client 1 is at socket 4., Thu Jan 16 15:25:01 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:26:43 2020
+Connection lost with server, Thu Jan 16 15:26:43 2020
+Created socket, Thu Jan 16 15:26:58 2020
+Socket address info is defined., Thu Jan 16 15:26:58 2020
+Created socket, Thu Jan 16 15:27:01 2020
+Socket address info is defined., Thu Jan 16 15:27:01 2020
+Socket is binded., Thu Jan 16 15:27:01 2020
+Server started listening on port  4542, Thu Jan 16 15:27:01 2020
+Created socket, Thu Jan 16 15:27:08 2020
+Socket address info is defined., Thu Jan 16 15:27:08 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:27:08 2020
+Connected with client  1, Thu Jan 16 15:27:08 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:27:45 2020
+Connection lost with server, Thu Jan 16 15:27:45 2020
+Created socket, Thu Jan 16 15:28:50 2020
+Socket address info is defined., Thu Jan 16 15:28:50 2020
+Socket is binded., Thu Jan 16 15:28:50 2020
+Server started listening on port  4542, Thu Jan 16 15:28:50 2020
+Created socket, Thu Jan 16 15:28:54 2020
+Socket address info is defined., Thu Jan 16 15:28:54 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:28:54 2020
+Connected with client  1, Thu Jan 16 15:28:54 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:29:01 2020
+Created socket, Thu Jan 16 15:29:38 2020
+Socket address info is defined., Thu Jan 16 15:29:38 2020
+Socket is binded., Thu Jan 16 15:29:38 2020
+Server started listening on port  4542, Thu Jan 16 15:29:38 2020
+Created socket, Thu Jan 16 15:29:41 2020
+Socket address info is defined., Thu Jan 16 15:29:41 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:29:41 2020
+Connected with client  1, Thu Jan 16 15:29:41 2020
+Created socket, Thu Jan 16 15:30:24 2020
+Socket address info is defined., Thu Jan 16 15:30:24 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:30:24 2020
+Connected with client  2, Thu Jan 16 15:30:24 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:30:29 2020
+Connection lost with server, Thu Jan 16 15:30:29 2020
+Created socket, Thu Jan 16 15:30:34 2020
+Socket address info is defined., Thu Jan 16 15:30:34 2020
+Socket is binded., Thu Jan 16 15:30:34 2020
+Server started listening on port  4545, Thu Jan 16 15:30:34 2020
+Created socket, Thu Jan 16 15:30:38 2020
+Socket address info is defined., Thu Jan 16 15:30:38 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:30:38 2020
+Connected with client  1, Thu Jan 16 15:30:38 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:30:47 2020
+Created socket, Thu Jan 16 15:30:49 2020
+Socket address info is defined., Thu Jan 16 15:30:49 2020
+Socket is binded., Thu Jan 16 15:30:49 2020
+Server started listening on port  4545, Thu Jan 16 15:30:49 2020
+Created socket, Thu Jan 16 15:30:52 2020
+Socket address info is defined., Thu Jan 16 15:30:52 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:30:52 2020
+Connected with client  1, Thu Jan 16 15:30:52 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:31:44 2020
+Connection lost with server, Thu Jan 16 15:31:44 2020
+Created socket, Thu Jan 16 15:33:00 2020
+Socket address info is defined., Thu Jan 16 15:33:00 2020
+Socket is binded., Thu Jan 16 15:33:00 2020
+Server started listening on port  4545, Thu Jan 16 15:33:00 2020
+Created socket, Thu Jan 16 15:33:07 2020
+Socket address info is defined., Thu Jan 16 15:33:07 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:33:07 2020
+Connected with client  1, Thu Jan 16 15:33:07 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:33:26 2020
+Connection lost with server, Thu Jan 16 15:33:26 2020
+Created socket, Thu Jan 16 15:33:30 2020
+Socket address info is defined., Thu Jan 16 15:33:30 2020
+Created socket, Thu Jan 16 15:33:32 2020
+Socket address info is defined., Thu Jan 16 15:33:32 2020
+Socket is binded., Thu Jan 16 15:33:32 2020
+Server started listening on port  4546, Thu Jan 16 15:33:32 2020
+Created socket, Thu Jan 16 15:33:37 2020
+Socket address info is defined., Thu Jan 16 15:33:37 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:33:37 2020
+Connected with client  1, Thu Jan 16 15:33:37 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:33:47 2020
+Connection lost with server, Thu Jan 16 15:33:47 2020
+Created socket, Thu Jan 16 15:37:55 2020
+Socket address info is defined., Thu Jan 16 15:37:55 2020
+Socket is binded., Thu Jan 16 15:37:55 2020
+Server started listening on port  4546, Thu Jan 16 15:37:55 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:37:58 2020
+Created socket, Thu Jan 16 15:44:07 2020
+Socket address info is defined., Thu Jan 16 15:44:07 2020
+Socket is binded., Thu Jan 16 15:44:07 2020
+Server started listening on port  4546, Thu Jan 16 15:44:07 2020
+Created socket, Thu Jan 16 15:44:10 2020
+Socket address info is defined., Thu Jan 16 15:44:10 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:44:10 2020
+Connected with client  1, Thu Jan 16 15:44:10 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:45:57 2020
+Created socket, Thu Jan 16 15:45:59 2020
+Socket address info is defined., Thu Jan 16 15:45:59 2020
+Socket is binded., Thu Jan 16 15:45:59 2020
+Server started listening on port  4546, Thu Jan 16 15:45:59 2020
+Created socket, Thu Jan 16 15:46:04 2020
+Socket address info is defined., Thu Jan 16 15:46:04 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:46:04 2020
+Connected with client  1, Thu Jan 16 15:46:04 2020
+, Thu Jan 16 15:47:10 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:47:19 2020
+Connection lost with server, Thu Jan 16 15:47:19 2020
+Created socket, Thu Jan 16 15:49:36 2020
+Socket address info is defined., Thu Jan 16 15:49:36 2020
+Socket is binded., Thu Jan 16 15:49:36 2020
+Server started listening on port  4546, Thu Jan 16 15:49:36 2020
+Created socket, Thu Jan 16 15:49:39 2020
+Socket address info is defined., Thu Jan 16 15:49:39 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:49:39 2020
+Connected with client  1, Thu Jan 16 15:49:39 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:49:45 2020
+Connection lost with server, Thu Jan 16 15:49:45 2020
+Created socket, Thu Jan 16 15:49:58 2020
+Socket address info is defined., Thu Jan 16 15:49:58 2020
+Created socket, Thu Jan 16 15:50:22 2020
+Socket address info is defined., Thu Jan 16 15:50:22 2020
+Socket is binded., Thu Jan 16 15:50:22 2020
+Server started listening on port  4545, Thu Jan 16 15:50:22 2020
+Created socket, Thu Jan 16 15:50:30 2020
+Socket address info is defined., Thu Jan 16 15:50:30 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:50:30 2020
+Connected with client  1, Thu Jan 16 15:50:30 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:50:34 2020
+Connection lost with server, Thu Jan 16 15:50:34 2020
+Created socket, Thu Jan 16 15:51:12 2020
+Socket address info is defined., Thu Jan 16 15:51:12 2020
+Created socket, Thu Jan 16 15:51:28 2020
+Socket address info is defined., Thu Jan 16 15:51:28 2020
+Socket is binded., Thu Jan 16 15:51:28 2020
+Server started listening on port  4546, Thu Jan 16 15:51:28 2020
+Created socket, Thu Jan 16 15:51:35 2020
+Socket address info is defined., Thu Jan 16 15:51:35 2020
+Created socket, Thu Jan 16 15:51:40 2020
+Socket address info is defined., Thu Jan 16 15:51:40 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:51:40 2020
+Connected with client  1, Thu Jan 16 15:51:40 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:51:42 2020
+Connection lost with server, Thu Jan 16 15:51:42 2020
+Created socket, Thu Jan 16 15:51:55 2020
+Socket address info is defined., Thu Jan 16 15:51:55 2020
+Created socket, Thu Jan 16 15:51:58 2020
+Socket address info is defined., Thu Jan 16 15:51:58 2020
+Socket is binded., Thu Jan 16 15:51:58 2020
+Server started listening on port  4547, Thu Jan 16 15:51:58 2020
+Created socket, Thu Jan 16 15:52:03 2020
+Socket address info is defined., Thu Jan 16 15:52:03 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:52:03 2020
+Connected with client  1, Thu Jan 16 15:52:03 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:52:07 2020
+Connection lost with server, Thu Jan 16 15:52:07 2020
+Created socket, Thu Jan 16 15:52:35 2020
+Socket address info is defined., Thu Jan 16 15:52:35 2020
+Created socket, Thu Jan 16 15:52:39 2020
+Socket address info is defined., Thu Jan 16 15:52:39 2020
+Created socket, Thu Jan 16 15:52:42 2020
+Socket address info is defined., Thu Jan 16 15:52:42 2020
+Socket is binded., Thu Jan 16 15:52:42 2020
+Server started listening on port  4541, Thu Jan 16 15:52:42 2020
+Created socket, Thu Jan 16 15:52:47 2020
+Socket address info is defined., Thu Jan 16 15:52:47 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:52:47 2020
+Connected with client  1, Thu Jan 16 15:52:47 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:53:14 2020
+Connection lost with server, Thu Jan 16 15:53:14 2020
+Created socket, Thu Jan 16 15:53:23 2020
+Socket address info is defined., Thu Jan 16 15:53:23 2020
+Created socket, Thu Jan 16 15:53:27 2020
+Socket address info is defined., Thu Jan 16 15:53:27 2020
+Socket is binded., Thu Jan 16 15:53:27 2020
+Server started listening on port  4549, Thu Jan 16 15:53:27 2020
+Created socket, Thu Jan 16 15:53:32 2020
+Socket address info is defined., Thu Jan 16 15:53:32 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:53:32 2020
+Connected with client  1, Thu Jan 16 15:53:32 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:53:37 2020
+Connection lost with server, Thu Jan 16 15:53:37 2020
+Created socket, Thu Jan 16 15:54:03 2020
+Socket address info is defined., Thu Jan 16 15:54:03 2020
+Socket is binded., Thu Jan 16 15:54:03 2020
+Server started listening on port  4544, Thu Jan 16 15:54:03 2020
+Created socket, Thu Jan 16 15:54:08 2020
+Socket address info is defined., Thu Jan 16 15:54:08 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:54:08 2020
+Connected with client  1, Thu Jan 16 15:54:08 2020
+Created socket, Thu Jan 16 15:54:13 2020
+Socket address info is defined., Thu Jan 16 15:54:13 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:54:13 2020
+Connected with client  2, Thu Jan 16 15:54:13 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:56:14 2020
+Connection lost with server, Thu Jan 16 15:56:14 2020
+Created socket, Thu Jan 16 15:56:17 2020
+Socket address info is defined., Thu Jan 16 15:56:17 2020
+Created socket, Thu Jan 16 15:56:19 2020
+Socket address info is defined., Thu Jan 16 15:56:19 2020
+Socket is binded., Thu Jan 16 15:56:19 2020
+Server started listening on port  4547, Thu Jan 16 15:56:19 2020
+Created socket, Thu Jan 16 15:56:25 2020
+Socket address info is defined., Thu Jan 16 15:56:25 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:56:25 2020
+Connected with client  1, Thu Jan 16 15:56:25 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:57:52 2020
+Connection lost with server, Thu Jan 16 15:57:52 2020
+Created socket, Thu Jan 16 15:57:55 2020
+Socket address info is defined., Thu Jan 16 15:57:55 2020
+Created socket, Thu Jan 16 15:57:57 2020
+Socket address info is defined., Thu Jan 16 15:57:57 2020
+Socket is binded., Thu Jan 16 15:57:57 2020
+Server started listening on port  4544, Thu Jan 16 15:57:57 2020
+Created socket, Thu Jan 16 15:58:01 2020
+Socket address info is defined., Thu Jan 16 15:58:01 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:58:01 2020
+Connected with client  1, Thu Jan 16 15:58:01 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:58:26 2020
+Connection lost with server, Thu Jan 16 15:58:26 2020
+Created socket, Thu Jan 16 15:58:30 2020
+Socket address info is defined., Thu Jan 16 15:58:30 2020
+Created socket, Thu Jan 16 15:58:33 2020
+Socket address info is defined., Thu Jan 16 15:58:33 2020
+Socket is binded., Thu Jan 16 15:58:33 2020
+Server started listening on port  4548, Thu Jan 16 15:58:33 2020
+Created socket, Thu Jan 16 15:58:38 2020
+Socket address info is defined., Thu Jan 16 15:58:38 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:58:38 2020
+Connected with client  1, Thu Jan 16 15:58:38 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 15:58:54 2020
+Created socket, Thu Jan 16 15:58:58 2020
+Socket address info is defined., Thu Jan 16 15:58:58 2020
+Socket is binded., Thu Jan 16 15:58:58 2020
+Server started listening on port  4541, Thu Jan 16 15:58:58 2020
+Created socket, Thu Jan 16 15:59:02 2020
+Socket address info is defined., Thu Jan 16 15:59:02 2020
+Connection established between server and client at socket 3, Thu Jan 16 15:59:02 2020
+Connected with client  1, Thu Jan 16 15:59:02 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:40:43 2020
+Connection lost with server, Thu Jan 16 16:40:43 2020
+Created socket, Thu Jan 16 16:41:54 2020
+Socket address info is defined., Thu Jan 16 16:41:54 2020
+Socket is binded., Thu Jan 16 16:41:54 2020
+Server started listening on port  4541, Thu Jan 16 16:41:54 2020
+Connected with client  2, Thu Jan 16 16:41:54 2020
+Connected with client  3, Thu Jan 16 16:41:54 2020
+Connected with client  11, Thu Jan 16 16:41:54 2020
+Connected with client  28, Thu Jan 16 16:41:54 2020
+Connected with client  14, Thu Jan 16 16:41:54 2020
+Connected with client  19, Thu Jan 16 16:41:54 2020
+Connected with client  9, Thu Jan 16 16:41:54 2020
+Connected with client  35, Thu Jan 16 16:41:54 2020
+Connected with client  27, Thu Jan 16 16:41:54 2020
+Connected with client  13, Thu Jan 16 16:41:54 2020
+Connected with client  32, Thu Jan 16 16:41:54 2020
+Connected with client  25, Thu Jan 16 16:41:54 2020
+Connected with client  24, Thu Jan 16 16:41:54 2020
+Connected with client  15, Thu Jan 16 16:41:54 2020
+Connected with client  36, Thu Jan 16 16:41:54 2020
+Connected with client  8, Thu Jan 16 16:41:54 2020
+Connected with client  4, Thu Jan 16 16:41:54 2020
+Connected with client  17, Thu Jan 16 16:41:54 2020
+Connected with client  23, Thu Jan 16 16:41:54 2020
+Connected with client  42, Thu Jan 16 16:41:54 2020
+Connected with client  43, Thu Jan 16 16:41:54 2020
+Connected with client  37, Thu Jan 16 16:41:54 2020
+Connected with client  38, Thu Jan 16 16:41:54 2020
+Connected with client  45, Thu Jan 16 16:41:54 2020
+Connected with client  72, Thu Jan 16 16:41:54 2020
+Connected with client  47, Thu Jan 16 16:41:54 2020
+Connected with client  48, Thu Jan 16 16:41:54 2020
+Connected with client  49, Thu Jan 16 16:41:54 2020
+Connected with client  52, Thu Jan 16 16:41:54 2020
+Connected with client  54, Thu Jan 16 16:41:54 2020
+Connected with client  55, Thu Jan 16 16:41:54 2020
+Connected with client  63, Thu Jan 16 16:41:54 2020
+Connected with client  62, Thu Jan 16 16:41:54 2020
+Connected with client  59, Thu Jan 16 16:41:54 2020
+Connected with client  58, Thu Jan 16 16:41:54 2020
+Connected with client  66, Thu Jan 16 16:41:54 2020
+Connected with client  67, Thu Jan 16 16:41:54 2020
+Connected with client  70, Thu Jan 16 16:41:54 2020
+Connected with client  133, Thu Jan 16 16:41:54 2020
+Connected with client  135, Thu Jan 16 16:41:54 2020
+Connected with client  136, Thu Jan 16 16:41:54 2020
+Connected with client  129, Thu Jan 16 16:41:54 2020
+Connected with client  132, Thu Jan 16 16:41:54 2020
+Connected with client  130, Thu Jan 16 16:41:54 2020
+Connected with client  71, Thu Jan 16 16:41:54 2020
+Connected with client  98, Thu Jan 16 16:41:54 2020
+Connected with client  96, Thu Jan 16 16:41:54 2020
+Connected with client  78, Thu Jan 16 16:41:54 2020
+Connected with client  79, Thu Jan 16 16:41:54 2020
+Connected with client  95, Thu Jan 16 16:41:54 2020
+Connected with client  76, Thu Jan 16 16:41:54 2020
+Connected with client  128, Thu Jan 16 16:41:54 2020
+Connected with client  134, Thu Jan 16 16:41:54 2020
+Connected with client  85, Thu Jan 16 16:41:54 2020
+Connected with client  131, Thu Jan 16 16:41:54 2020
+Connected with client  89, Thu Jan 16 16:41:54 2020
+Connected with client  84, Thu Jan 16 16:41:54 2020
+Connected with client  91, Thu Jan 16 16:41:54 2020
+Connected with client  83, Thu Jan 16 16:41:54 2020
+Connected with client  44, Thu Jan 16 16:41:54 2020
+Connected with client  46, Thu Jan 16 16:41:54 2020
+Connected with client  39, Thu Jan 16 16:41:54 2020
+Connected with client  229, Thu Jan 16 16:41:54 2020
+Connected with client  230, Thu Jan 16 16:41:54 2020
+Connected with client  231, Thu Jan 16 16:41:54 2020
+Connected with client  232, Thu Jan 16 16:41:54 2020
+Connected with client  233, Thu Jan 16 16:41:54 2020
+Connected with client  234, Thu Jan 16 16:41:54 2020
+Connected with client  235, Thu Jan 16 16:41:54 2020
+Connected with client  164, Thu Jan 16 16:41:54 2020
+Connected with client  165, Thu Jan 16 16:41:54 2020
+Connected with client  166, Thu Jan 16 16:41:54 2020
+Connected with client  270, Thu Jan 16 16:41:54 2020
+Connected with client  168, Thu Jan 16 16:41:54 2020
+Connected with client  167, Thu Jan 16 16:41:54 2020
+Connected with client  240, Thu Jan 16 16:41:54 2020
+Connected with client  170, Thu Jan 16 16:41:54 2020
+Connected with client  172, Thu Jan 16 16:41:54 2020
+Connected with client  173, Thu Jan 16 16:41:54 2020
+Connected with client  174, Thu Jan 16 16:41:54 2020
+Connected with client  175, Thu Jan 16 16:41:54 2020
+Connected with client  176, Thu Jan 16 16:41:54 2020
+Connected with client  177, Thu Jan 16 16:41:54 2020
+Connected with client  178, Thu Jan 16 16:41:54 2020
+Connected with client  179, Thu Jan 16 16:41:54 2020
+Connected with client  180, Thu Jan 16 16:41:54 2020
+Connected with client  181, Thu Jan 16 16:41:54 2020
+Connected with client  182, Thu Jan 16 16:41:54 2020
+Connected with client  183, Thu Jan 16 16:41:54 2020
+Connected with client  184, Thu Jan 16 16:41:54 2020
+Connected with client  185, Thu Jan 16 16:41:54 2020
+Connected with client  186, Thu Jan 16 16:41:54 2020
+Connected with client  187, Thu Jan 16 16:41:54 2020
+Connected with client  188, Thu Jan 16 16:41:54 2020
+Connected with client  189, Thu Jan 16 16:41:54 2020
+Connected with client  190, Thu Jan 16 16:41:54 2020
+Connected with client  191, Thu Jan 16 16:41:54 2020
+Connected with client  192, Thu Jan 16 16:41:54 2020
+Connected with client  193, Thu Jan 16 16:41:54 2020
+Connected with client  194, Thu Jan 16 16:41:54 2020
+Connected with client  195, Thu Jan 16 16:41:54 2020
+Connected with client  196, Thu Jan 16 16:41:54 2020
+Connected with client  197, Thu Jan 16 16:41:54 2020
+Connected with client  198, Thu Jan 16 16:41:54 2020
+Connected with client  199, Thu Jan 16 16:41:54 2020
+Connected with client  200, Thu Jan 16 16:41:54 2020
+Connected with client  201, Thu Jan 16 16:41:54 2020
+Connected with client  202, Thu Jan 16 16:41:54 2020
+Connected with client  203, Thu Jan 16 16:41:54 2020
+Connected with client  204, Thu Jan 16 16:41:54 2020
+Connected with client  205, Thu Jan 16 16:41:54 2020
+Connected with client  206, Thu Jan 16 16:41:54 2020
+Connected with client  207, Thu Jan 16 16:41:54 2020
+Connected with client  208, Thu Jan 16 16:41:54 2020
+Connected with client  163, Thu Jan 16 16:41:54 2020
+Connected with client  40, Thu Jan 16 16:41:54 2020
+Connected with client  210, Thu Jan 16 16:41:54 2020
+Connected with client  214, Thu Jan 16 16:41:54 2020
+Connected with client  226, Thu Jan 16 16:41:54 2020
+Connected with client  158, Thu Jan 16 16:41:54 2020
+Connected with client  211, Thu Jan 16 16:41:54 2020
+Connected with client  217, Thu Jan 16 16:41:54 2020
+Connected with client  152, Thu Jan 16 16:41:54 2020
+Connected with client  216, Thu Jan 16 16:41:54 2020
+Connected with client  227, Thu Jan 16 16:41:54 2020
+Connected with client  122, Thu Jan 16 16:41:54 2020
+Connected with client  151, Thu Jan 16 16:41:54 2020
+Connected with client  213, Thu Jan 16 16:41:54 2020
+Connected with client  223, Thu Jan 16 16:41:54 2020
+Connected with client  124, Thu Jan 16 16:41:54 2020
+Connected with client  157, Thu Jan 16 16:41:54 2020
+Connected with client  92, Thu Jan 16 16:41:54 2020
+Connected with client  94, Thu Jan 16 16:41:54 2020
+Connected with client  119, Thu Jan 16 16:41:54 2020
+Connected with client  125, Thu Jan 16 16:41:54 2020
+Connected with client  126, Thu Jan 16 16:41:54 2020
+Connected with client  116, Thu Jan 16 16:41:54 2020
+Connected with client  57, Thu Jan 16 16:41:54 2020
+Connected with client  61, Thu Jan 16 16:41:54 2020
+Connected with client  64, Thu Jan 16 16:41:54 2020
+Connected with client  68, Thu Jan 16 16:41:54 2020
+Connected with client  74, Thu Jan 16 16:41:54 2020
+Connected with client  81, Thu Jan 16 16:41:54 2020
+Connected with client  115, Thu Jan 16 16:41:54 2020
+Connected with client  117, Thu Jan 16 16:41:54 2020
+Connected with client  127, Thu Jan 16 16:41:54 2020
+Connected with client  153, Thu Jan 16 16:41:54 2020
+Connected with client  155, Thu Jan 16 16:41:54 2020
+Connected with client  156, Thu Jan 16 16:41:54 2020
+Connected with client  209, Thu Jan 16 16:41:54 2020
+Connected with client  218, Thu Jan 16 16:41:54 2020
+Connected with client  222, Thu Jan 16 16:41:54 2020
+Connected with client  82, Thu Jan 16 16:41:54 2020
+Connected with client  60, Thu Jan 16 16:41:54 2020
+Connected with client  150, Thu Jan 16 16:41:54 2020
+Connected with client  51, Thu Jan 16 16:41:54 2020
+Connected with client  80, Thu Jan 16 16:41:54 2020
+Connected with client  118, Thu Jan 16 16:41:54 2020
+Connected with client  50, Thu Jan 16 16:41:54 2020
+Connected with client  56, Thu Jan 16 16:41:54 2020
+Connected with client  69, Thu Jan 16 16:41:54 2020
+Connected with client  75, Thu Jan 16 16:41:54 2020
+Connected with client  86, Thu Jan 16 16:41:54 2020
+Connected with client  87, Thu Jan 16 16:41:54 2020
+Connected with client  224, Thu Jan 16 16:41:54 2020
+Connected with client  65, Thu Jan 16 16:41:54 2020
+Connected with client  219, Thu Jan 16 16:41:54 2020
+Connected with client  88, Thu Jan 16 16:41:54 2020
+Connected with client  93, Thu Jan 16 16:41:54 2020
+Connected with client  120, Thu Jan 16 16:41:54 2020
+Connected with client  123, Thu Jan 16 16:41:54 2020
+Connected with client  149, Thu Jan 16 16:41:54 2020
+Connected with client  154, Thu Jan 16 16:41:54 2020
+Connected with client  159, Thu Jan 16 16:41:54 2020
+Connected with client  160, Thu Jan 16 16:41:54 2020
+Connected with client  161, Thu Jan 16 16:41:54 2020
+Connected with client  212, Thu Jan 16 16:41:54 2020
+Connected with client  221, Thu Jan 16 16:41:54 2020
+Connected with client  228, Thu Jan 16 16:41:54 2020
+Connected with client  53, Thu Jan 16 16:41:54 2020
+Connected with client  148, Thu Jan 16 16:41:54 2020
+Connected with client  73, Thu Jan 16 16:41:54 2020
+Connected with client  215, Thu Jan 16 16:41:54 2020
+Connected with client  220, Thu Jan 16 16:41:54 2020
+Connected with client  257, Thu Jan 16 16:41:54 2020
+Connected with client  260, Thu Jan 16 16:41:54 2020
+Connected with client  236, Thu Jan 16 16:41:54 2020
+Connected with client  255, Thu Jan 16 16:41:54 2020
+Connected with client  238, Thu Jan 16 16:41:54 2020
+Connected with client  247, Thu Jan 16 16:41:54 2020
+Connected with client  253, Thu Jan 16 16:41:54 2020
+Connected with client  262, Thu Jan 16 16:41:54 2020
+Connected with client  265, Thu Jan 16 16:41:54 2020
+Connected with client  267, Thu Jan 16 16:41:54 2020
+Connected with client  237, Thu Jan 16 16:41:54 2020
+Connected with client  249, Thu Jan 16 16:41:54 2020
+Connected with client  263, Thu Jan 16 16:41:54 2020
+Connected with client  271, Thu Jan 16 16:41:54 2020
+Connected with client  248, Thu Jan 16 16:41:54 2020
+Connected with client  250, Thu Jan 16 16:41:54 2020
+Connected with client  169, Thu Jan 16 16:41:54 2020
+Connected with client  279, Thu Jan 16 16:41:54 2020
+Connected with client  171, Thu Jan 16 16:41:54 2020
+Connected with client  239, Thu Jan 16 16:41:54 2020
+Connected with client  285, Thu Jan 16 16:41:54 2020
+Connected with client  286, Thu Jan 16 16:41:54 2020
+Connected with client  272, Thu Jan 16 16:41:54 2020
+Connected with client  273, Thu Jan 16 16:41:54 2020
+Connected with client  259, Thu Jan 16 16:41:54 2020
+Connected with client  258, Thu Jan 16 16:41:54 2020
+Connected with client  291, Thu Jan 16 16:41:54 2020
+Connected with client  269, Thu Jan 16 16:41:54 2020
+Connected with client  254, Thu Jan 16 16:41:54 2020
+Connected with client  297, Thu Jan 16 16:41:54 2020
+Connected with client  298, Thu Jan 16 16:41:54 2020
+Connected with client  282, Thu Jan 16 16:41:54 2020
+Connected with client  287, Thu Jan 16 16:41:54 2020
+Connected with client  289, Thu Jan 16 16:41:54 2020
+Connected with client  292, Thu Jan 16 16:41:54 2020
+Connected with client  294, Thu Jan 16 16:41:54 2020
+Connected with client  296, Thu Jan 16 16:41:54 2020
+Connected with client  277, Thu Jan 16 16:41:54 2020
+Connected with client  299, Thu Jan 16 16:41:54 2020
+Connected with client  251, Thu Jan 16 16:41:54 2020
+Connected with client  275, Thu Jan 16 16:41:54 2020
+Connected with client  278, Thu Jan 16 16:41:54 2020
+Connected with client  274, Thu Jan 16 16:41:54 2020
+Connected with client  281, Thu Jan 16 16:41:54 2020
+Connected with client  280, Thu Jan 16 16:41:54 2020
+Connected with client  283, Thu Jan 16 16:41:54 2020
+Connected with client  311, Thu Jan 16 16:41:54 2020
+Connected with client  284, Thu Jan 16 16:41:54 2020
+Connected with client  290, Thu Jan 16 16:41:54 2020
+Connected with client  295, Thu Jan 16 16:41:54 2020
+Connected with client  288, Thu Jan 16 16:41:54 2020
+Connected with client  300, Thu Jan 16 16:41:54 2020
+Connected with client  303, Thu Jan 16 16:41:54 2020
+Connected with client  305, Thu Jan 16 16:41:54 2020
+Connected with client  307, Thu Jan 16 16:41:54 2020
+Connected with client  312, Thu Jan 16 16:41:54 2020
+Connected with client  308, Thu Jan 16 16:41:54 2020
+Connected with client  320, Thu Jan 16 16:41:54 2020
+Connected with client  310, Thu Jan 16 16:41:54 2020
+Connected with client  301, Thu Jan 16 16:41:54 2020
+Connected with client  302, Thu Jan 16 16:41:54 2020
+Connected with client  319, Thu Jan 16 16:41:54 2020
+Connected with client  323, Thu Jan 16 16:41:54 2020
+Connected with client  325, Thu Jan 16 16:41:54 2020
+Connected with client  327, Thu Jan 16 16:41:54 2020
+Connected with client  306, Thu Jan 16 16:41:54 2020
+Connected with client  313, Thu Jan 16 16:41:54 2020
+Connected with client  315, Thu Jan 16 16:41:54 2020
+Connected with client  314, Thu Jan 16 16:41:55 2020
+Connected with client  317, Thu Jan 16 16:41:55 2020
+Connected with client  316, Thu Jan 16 16:41:55 2020
+Connected with client  304, Thu Jan 16 16:41:54 2020
+Connected with client  309, Thu Jan 16 16:41:55 2020
+Connected with client  328, Thu Jan 16 16:41:55 2020
+Connected with client  329, Thu Jan 16 16:41:55 2020
+Connected with client  335, Thu Jan 16 16:41:55 2020
+Connected with client  337, Thu Jan 16 16:41:55 2020
+Connected with client  333, Thu Jan 16 16:41:55 2020
+Connected with client  334, Thu Jan 16 16:41:55 2020
+Connected with client  331, Thu Jan 16 16:41:55 2020
+Connected with client  336, Thu Jan 16 16:41:55 2020
+Connected with client  441, Thu Jan 16 16:41:55 2020
+Connected with client  442, Thu Jan 16 16:41:55 2020
+Connected with client  443, Thu Jan 16 16:41:55 2020
+Connected with client  264, Thu Jan 16 16:41:55 2020
+Connected with client  340, Thu Jan 16 16:41:55 2020
+Connected with client  341, Thu Jan 16 16:41:55 2020
+Connected with client  367, Thu Jan 16 16:41:55 2020
+Connected with client  352, Thu Jan 16 16:41:55 2020
+Connected with client  360, Thu Jan 16 16:41:55 2020
+Connected with client  359, Thu Jan 16 16:41:55 2020
+Connected with client  363, Thu Jan 16 16:41:55 2020
+Connected with client  355, Thu Jan 16 16:41:55 2020
+Connected with client  364, Thu Jan 16 16:41:55 2020
+Connected with client  356, Thu Jan 16 16:41:55 2020
+Connected with client  369, Thu Jan 16 16:41:55 2020
+Connected with client  378, Thu Jan 16 16:41:55 2020
+Connected with client  368, Thu Jan 16 16:41:55 2020
+Connected with client  348, Thu Jan 16 16:41:55 2020
+Connected with client  346, Thu Jan 16 16:41:55 2020
+Connected with client  349, Thu Jan 16 16:41:55 2020
+Connected with client  381, Thu Jan 16 16:41:55 2020
+Connected with client  458, Thu Jan 16 16:41:55 2020
+Connected with client  459, Thu Jan 16 16:41:55 2020
+Connected with client  460, Thu Jan 16 16:41:55 2020
+Connected with client  461, Thu Jan 16 16:41:55 2020
+Connected with client  342, Thu Jan 16 16:41:55 2020
+Connected with client  343, Thu Jan 16 16:41:55 2020
+Connected with client  377, Thu Jan 16 16:41:55 2020
+Connected with client  462, Thu Jan 16 16:41:55 2020
+Connected with client  463, Thu Jan 16 16:41:55 2020
+Connected with client  464, Thu Jan 16 16:41:55 2020
+Connected with client  465, Thu Jan 16 16:41:55 2020
+Connected with client  466, Thu Jan 16 16:41:55 2020
+Connected with client  467, Thu Jan 16 16:41:55 2020
+Connected with client  470, Thu Jan 16 16:41:55 2020
+Connected with client  471, Thu Jan 16 16:41:55 2020
+Connected with client  472, Thu Jan 16 16:41:55 2020
+Connected with client  477, Thu Jan 16 16:41:55 2020
+Connected with client  478, Thu Jan 16 16:41:55 2020
+Connected with client  479, Thu Jan 16 16:41:55 2020
+Connected with client  488, Thu Jan 16 16:41:55 2020
+Connected with client  489, Thu Jan 16 16:41:55 2020
+Connected with client  491, Thu Jan 16 16:41:55 2020
+Connected with client  318, Thu Jan 16 16:41:55 2020
+Connected with client  382, Thu Jan 16 16:41:55 2020
+Connected with client  324, Thu Jan 16 16:41:55 2020
+Connected with client  322, Thu Jan 16 16:41:55 2020
+Connected with client  385, Thu Jan 16 16:41:55 2020
+Connected with client  401, Thu Jan 16 16:41:55 2020
+Connected with client  402, Thu Jan 16 16:41:55 2020
+Connected with client  408, Thu Jan 16 16:41:55 2020
+Connected with client  409, Thu Jan 16 16:41:55 2020
+Connected with client  410, Thu Jan 16 16:41:55 2020
+Connected with client  411, Thu Jan 16 16:41:55 2020
+Connected with client  418, Thu Jan 16 16:41:55 2020
+Connected with client  425, Thu Jan 16 16:41:55 2020
+Connected with client  426, Thu Jan 16 16:41:55 2020
+Connected with client  419, Thu Jan 16 16:41:55 2020
+Connected with client  420, Thu Jan 16 16:41:55 2020
+Connected with client  430, Thu Jan 16 16:41:55 2020
+Connected with client  422, Thu Jan 16 16:41:55 2020
+Connected with client  427, Thu Jan 16 16:41:55 2020
+Connected with client  428, Thu Jan 16 16:41:55 2020
+Connected with client  429, Thu Jan 16 16:41:55 2020
+Connected with client  432, Thu Jan 16 16:41:55 2020
+Connected with client  433, Thu Jan 16 16:41:55 2020
+Connected with client  434, Thu Jan 16 16:41:55 2020
+Connected with client  435, Thu Jan 16 16:41:55 2020
+Connected with client  439, Thu Jan 16 16:41:55 2020
+Connected with client  440, Thu Jan 16 16:41:55 2020
+Connected with client  345, Thu Jan 16 16:41:55 2020
+Connected with client  487, Thu Jan 16 16:41:55 2020
+Connected with client  481, Thu Jan 16 16:41:55 2020
+Connected with client  499, Thu Jan 16 16:41:55 2020
+Connected with client  500, Thu Jan 16 16:41:55 2020
+Connected with client  498, Thu Jan 16 16:41:55 2020
+Connected with client  444, Thu Jan 16 16:41:55 2020
+Connected with client  508, Thu Jan 16 16:41:55 2020
+Connected with client  445, Thu Jan 16 16:41:55 2020
+Connected with client  509, Thu Jan 16 16:41:55 2020
+Connected with client  510, Thu Jan 16 16:41:55 2020
+Connected with client  447, Thu Jan 16 16:41:55 2020
+Connected with client  448, Thu Jan 16 16:41:55 2020
+Connected with client  449, Thu Jan 16 16:41:55 2020
+Connected with client  450, Thu Jan 16 16:41:55 2020
+Connected with client  451, Thu Jan 16 16:41:55 2020
+Connected with client  452, Thu Jan 16 16:41:55 2020
+Connected with client  453, Thu Jan 16 16:41:55 2020
+Connected with client  454, Thu Jan 16 16:41:55 2020
+Connected with client  456, Thu Jan 16 16:41:55 2020
+Connected with client  457, Thu Jan 16 16:41:55 2020
+Connected with client  446, Thu Jan 16 16:41:55 2020
+Connected with client  455, Thu Jan 16 16:41:55 2020
+Connected with client  492, Thu Jan 16 16:41:55 2020
+Connected with client  515, Thu Jan 16 16:41:55 2020
+Connected with client  493, Thu Jan 16 16:41:55 2020
+Connected with client  494, Thu Jan 16 16:41:55 2020
+Connected with client  495, Thu Jan 16 16:41:55 2020
+Connected with client  497, Thu Jan 16 16:41:55 2020
+Connected with client  496, Thu Jan 16 16:41:55 2020
+Connected with client  501, Thu Jan 16 16:41:55 2020
+Connected with client  351, Thu Jan 16 16:41:55 2020
+Connected with client  380, Thu Jan 16 16:41:55 2020
+Connected with client  383, Thu Jan 16 16:41:55 2020
+Connected with client  392, Thu Jan 16 16:41:55 2020
+Connected with client  393, Thu Jan 16 16:41:55 2020
+Connected with client  394, Thu Jan 16 16:41:55 2020
+Connected with client  395, Thu Jan 16 16:41:55 2020
+Connected with client  396, Thu Jan 16 16:41:55 2020
+Connected with client  412, Thu Jan 16 16:41:55 2020
+Connected with client  413, Thu Jan 16 16:41:55 2020
+Connected with client  414, Thu Jan 16 16:41:55 2020
+Connected with client  415, Thu Jan 16 16:41:55 2020
+Connected with client  416, Thu Jan 16 16:41:55 2020
+Connected with client  362, Thu Jan 16 16:41:55 2020
+Connected with client  354, Thu Jan 16 16:41:55 2020
+Connected with client  365, Thu Jan 16 16:41:55 2020
+Connected with client  350, Thu Jan 16 16:41:55 2020
+Connected with client  361, Thu Jan 16 16:41:55 2020
+Connected with client  366, Thu Jan 16 16:41:55 2020
+Connected with client  417, Thu Jan 16 16:41:55 2020
+Connected with client  353, Thu Jan 16 16:41:55 2020
+Connected with client  339, Thu Jan 16 16:41:55 2020
+Connected with client  379, Thu Jan 16 16:41:55 2020
+Connected with client  423, Thu Jan 16 16:41:55 2020
+Connected with client  546, Thu Jan 16 16:41:55 2020
+Connected with client  482, Thu Jan 16 16:41:55 2020
+Connected with client  483, Thu Jan 16 16:41:55 2020
+Connected with client  517, Thu Jan 16 16:41:55 2020
+Connected with client  276, Thu Jan 16 16:41:55 2020
+Connected with client  550, Thu Jan 16 16:41:55 2020
+Connected with client  551, Thu Jan 16 16:41:55 2020
+Connected with client  518, Thu Jan 16 16:41:55 2020
+Connected with client  424, Thu Jan 16 16:41:55 2020
+Connected with client  542, Thu Jan 16 16:41:55 2020
+Connected with client  326, Thu Jan 16 16:41:55 2020
+Connected with client  522, Thu Jan 16 16:41:55 2020
+Connected with client  525, Thu Jan 16 16:41:55 2020
+Connected with client  526, Thu Jan 16 16:41:55 2020
+Connected with client  480, Thu Jan 16 16:41:55 2020
+Connected with client  519, Thu Jan 16 16:41:55 2020
+Connected with client  490, Thu Jan 16 16:41:55 2020
+Connected with client  552, Thu Jan 16 16:41:55 2020
+Connected with client  534, Thu Jan 16 16:41:55 2020
+Connected with client  535, Thu Jan 16 16:41:55 2020
+Connected with client  531, Thu Jan 16 16:41:55 2020
+Connected with client  475, Thu Jan 16 16:41:55 2020
+Connected with client  476, Thu Jan 16 16:41:55 2020
+Connected with client  404, Thu Jan 16 16:41:55 2020
+Connected with client  391, Thu Jan 16 16:41:55 2020
+Connected with client  538, Thu Jan 16 16:41:55 2020
+Connected with client  388, Thu Jan 16 16:41:55 2020
+Connected with client  376, Thu Jan 16 16:41:55 2020
+Connected with client  374, Thu Jan 16 16:41:55 2020
+Connected with client  373, Thu Jan 16 16:41:55 2020
+Connected with client  556, Thu Jan 16 16:41:55 2020
+Connected with client  511, Thu Jan 16 16:41:55 2020
+Connected with client  533, Thu Jan 16 16:41:55 2020
+Connected with client  541, Thu Jan 16 16:41:55 2020
+Connected with client  539, Thu Jan 16 16:41:55 2020
+Connected with client  543, Thu Jan 16 16:41:55 2020
+Connected with client  389, Thu Jan 16 16:41:55 2020
+Connected with client  405, Thu Jan 16 16:41:55 2020
+Connected with client  375, Thu Jan 16 16:41:55 2020
+Connected with client  371, Thu Jan 16 16:41:55 2020
+Connected with client  403, Thu Jan 16 16:41:55 2020
+Connected with client  406, Thu Jan 16 16:41:55 2020
+Connected with client  370, Thu Jan 16 16:41:55 2020
+Connected with client  390, Thu Jan 16 16:41:55 2020
+Connected with client  512, Thu Jan 16 16:41:55 2020
+Connected with client  387, Thu Jan 16 16:41:55 2020
+Connected with client  514, Thu Jan 16 16:41:55 2020
+Connected with client  527, Thu Jan 16 16:41:55 2020
+Connected with client  516, Thu Jan 16 16:41:55 2020
+Connected with client  528, Thu Jan 16 16:41:55 2020
+Connected with client  558, Thu Jan 16 16:41:55 2020
+Connected with client  536, Thu Jan 16 16:41:55 2020
+Connected with client  547, Thu Jan 16 16:41:55 2020
+Connected with client  523, Thu Jan 16 16:41:55 2020
+Connected with client  529, Thu Jan 16 16:41:55 2020
+Connected with client  524, Thu Jan 16 16:41:55 2020
+Connected with client  530, Thu Jan 16 16:41:55 2020
+Connected with client  532, Thu Jan 16 16:41:55 2020
+Connected with client  553, Thu Jan 16 16:41:55 2020
+Connected with client  537, Thu Jan 16 16:41:55 2020
+Connected with client  554, Thu Jan 16 16:41:55 2020
+Connected with client  540, Thu Jan 16 16:41:55 2020
+Connected with client  560, Thu Jan 16 16:41:55 2020
+Connected with client  545, Thu Jan 16 16:41:55 2020
+Connected with client  513, Thu Jan 16 16:41:55 2020
+Connected with client  563, Thu Jan 16 16:41:55 2020
+Connected with client  557, Thu Jan 16 16:41:55 2020
+Connected with client  570, Thu Jan 16 16:41:55 2020
+Connected with client  568, Thu Jan 16 16:41:55 2020
+Connected with client  562, Thu Jan 16 16:41:55 2020
+Connected with client  544, Thu Jan 16 16:41:55 2020
+Connected with client  569, Thu Jan 16 16:41:55 2020
+Connected with client  564, Thu Jan 16 16:41:56 2020
+Connected with client  589, Thu Jan 16 16:41:56 2020
+Connected with client  590, Thu Jan 16 16:41:56 2020
+Connected with client  567, Thu Jan 16 16:41:56 2020
+Connected with client  571, Thu Jan 16 16:41:56 2020
+Connected with client  572, Thu Jan 16 16:41:56 2020
+Connected with client  573, Thu Jan 16 16:41:56 2020
+Connected with client  574, Thu Jan 16 16:41:56 2020
+Connected with client  575, Thu Jan 16 16:41:56 2020
+Connected with client  576, Thu Jan 16 16:41:56 2020
+Connected with client  577, Thu Jan 16 16:41:56 2020
+Connected with client  578, Thu Jan 16 16:41:56 2020
+Connected with client  579, Thu Jan 16 16:41:56 2020
+Connected with client  580, Thu Jan 16 16:41:56 2020
+Connected with client  581, Thu Jan 16 16:41:56 2020
+Connected with client  582, Thu Jan 16 16:41:56 2020
+Connected with client  583, Thu Jan 16 16:41:56 2020
+Connected with client  591, Thu Jan 16 16:41:56 2020
+Connected with client  593, Thu Jan 16 16:41:56 2020
+Connected with client  584, Thu Jan 16 16:41:56 2020
+Connected with client  585, Thu Jan 16 16:41:56 2020
+Connected with client  594, Thu Jan 16 16:41:56 2020
+Connected with client  586, Thu Jan 16 16:41:56 2020
+Connected with client  587, Thu Jan 16 16:41:56 2020
+Connected with client  566, Thu Jan 16 16:41:56 2020
+Connected with client  372, Thu Jan 16 16:41:55 2020
+Connected with client  347, Thu Jan 16 16:41:55 2020
+Connected with client  358, Thu Jan 16 16:41:55 2020
+Connected with client  268, Thu Jan 16 16:41:54 2020
+Connected with client  114, Thu Jan 16 16:41:54 2020
+Connected with client  121, Thu Jan 16 16:41:54 2020
+Connected with client  26, Thu Jan 16 16:41:54 2020
+Connected with client  12, Thu Jan 16 16:41:54 2020
+Connected with client  33, Thu Jan 16 16:41:54 2020
+Connected with client  31, Thu Jan 16 16:41:54 2020
+Connected with client  6, Thu Jan 16 16:41:54 2020
+Connected with client  21, Thu Jan 16 16:41:54 2020
+Connected with client  18, Thu Jan 16 16:41:54 2020
+Connected with client  16, Thu Jan 16 16:41:54 2020
+Connected with client  10, Thu Jan 16 16:41:54 2020
+Connected with client  20, Thu Jan 16 16:41:54 2020
+Connected with client  1, Thu Jan 16 16:41:54 2020
+Connected with client  592, Thu Jan 16 16:41:56 2020
+Connected with client  588, Thu Jan 16 16:41:56 2020
+Connected with client  596, Thu Jan 16 16:41:56 2020
+Connected with client  597, Thu Jan 16 16:41:56 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:41:56 2020
+Created socket, Thu Jan 16 16:43:22 2020
+Socket address info is defined., Thu Jan 16 16:43:22 2020
+Socket is binded., Thu Jan 16 16:43:22 2020
+Server started listening on port  4541, Thu Jan 16 16:43:22 2020
+Connected with client  1, Thu Jan 16 16:43:22 2020
+Connected with client  4, Thu Jan 16 16:43:22 2020
+Connected with client  2, Thu Jan 16 16:43:22 2020
+Connected with client  3, Thu Jan 16 16:43:22 2020
+Connected with client  6, Thu Jan 16 16:43:22 2020
+Connected with client  7, Thu Jan 16 16:43:22 2020
+Connected with client  26, Thu Jan 16 16:43:22 2020
+Connected with client  55, Thu Jan 16 16:43:22 2020
+Connected with client  36, Thu Jan 16 16:43:22 2020
+Connected with client  58, Thu Jan 16 16:43:22 2020
+Connected with client  45, Thu Jan 16 16:43:22 2020
+Connected with client  44, Thu Jan 16 16:43:22 2020
+Connected with client  46, Thu Jan 16 16:43:22 2020
+Connected with client  37, Thu Jan 16 16:43:22 2020
+Connected with client  43, Thu Jan 16 16:43:22 2020
+Connected with client  73, Thu Jan 16 16:43:22 2020
+Connected with client  22, Thu Jan 16 16:43:22 2020
+Connected with client  16, Thu Jan 16 16:43:22 2020
+Connected with client  27, Thu Jan 16 16:43:22 2020
+Connected with client  33, Thu Jan 16 16:43:22 2020
+Connected with client  28, Thu Jan 16 16:43:22 2020
+Connected with client  13, Thu Jan 16 16:43:22 2020
+Connected with client  12, Thu Jan 16 16:43:22 2020
+Connected with client  20, Thu Jan 16 16:43:22 2020
+Connected with client  38, Thu Jan 16 16:43:22 2020
+Connected with client  52, Thu Jan 16 16:43:22 2020
+Connected with client  51, Thu Jan 16 16:43:22 2020
+Connected with client  50, Thu Jan 16 16:43:22 2020
+Connected with client  42, Thu Jan 16 16:43:22 2020
+Connected with client  41, Thu Jan 16 16:43:22 2020
+Connected with client  40, Thu Jan 16 16:43:22 2020
+Connected with client  34, Thu Jan 16 16:43:22 2020
+Connected with client  35, Thu Jan 16 16:43:22 2020
+Connected with client  107, Thu Jan 16 16:43:22 2020
+Connected with client  104, Thu Jan 16 16:43:22 2020
+Connected with client  103, Thu Jan 16 16:43:22 2020
+Connected with client  117, Thu Jan 16 16:43:22 2020
+Connected with client  112, Thu Jan 16 16:43:22 2020
+Connected with client  79, Thu Jan 16 16:43:22 2020
+Connected with client  113, Thu Jan 16 16:43:22 2020
+Connected with client  196, Thu Jan 16 16:43:22 2020
+Connected with client  91, Thu Jan 16 16:43:22 2020
+Connected with client  201, Thu Jan 16 16:43:22 2020
+Connected with client  77, Thu Jan 16 16:43:22 2020
+Connected with client  188, Thu Jan 16 16:43:22 2020
+Connected with client  200, Thu Jan 16 16:43:22 2020
+Connected with client  83, Thu Jan 16 16:43:22 2020
+Connected with client  86, Thu Jan 16 16:43:22 2020
+Connected with client  204, Thu Jan 16 16:43:22 2020
+Connected with client  187, Thu Jan 16 16:43:22 2020
+Connected with client  163, Thu Jan 16 16:43:22 2020
+Connected with client  179, Thu Jan 16 16:43:22 2020
+Connected with client  164, Thu Jan 16 16:43:22 2020
+Connected with client  88, Thu Jan 16 16:43:22 2020
+Connected with client  218, Thu Jan 16 16:43:22 2020
+Connected with client  180, Thu Jan 16 16:43:22 2020
+Connected with client  285, Thu Jan 16 16:43:22 2020
+Connected with client  93, Thu Jan 16 16:43:22 2020
+Connected with client  80, Thu Jan 16 16:43:22 2020
+Connected with client  227, Thu Jan 16 16:43:22 2020
+Connected with client  246, Thu Jan 16 16:43:22 2020
+Connected with client  237, Thu Jan 16 16:43:22 2020
+Connected with client  90, Thu Jan 16 16:43:22 2020
+Connected with client  190, Thu Jan 16 16:43:22 2020
+Connected with client  214, Thu Jan 16 16:43:22 2020
+Connected with client  286, Thu Jan 16 16:43:22 2020
+Connected with client  94, Thu Jan 16 16:43:22 2020
+Connected with client  197, Thu Jan 16 16:43:22 2020
+Connected with client  212, Thu Jan 16 16:43:22 2020
+Connected with client  211, Thu Jan 16 16:43:22 2020
+Connected with client  85, Thu Jan 16 16:43:22 2020
+Connected with client  192, Thu Jan 16 16:43:22 2020
+Connected with client  185, Thu Jan 16 16:43:22 2020
+Connected with client  182, Thu Jan 16 16:43:22 2020
+Connected with client  84, Thu Jan 16 16:43:22 2020
+Connected with client  206, Thu Jan 16 16:43:22 2020
+Connected with client  89, Thu Jan 16 16:43:22 2020
+Connected with client  181, Thu Jan 16 16:43:22 2020
+Connected with client  78, Thu Jan 16 16:43:22 2020
+Connected with client  194, Thu Jan 16 16:43:22 2020
+Connected with client  82, Thu Jan 16 16:43:22 2020
+Connected with client  183, Thu Jan 16 16:43:22 2020
+Connected with client  198, Thu Jan 16 16:43:22 2020
+Connected with client  75, Thu Jan 16 16:43:22 2020
+Connected with client  216, Thu Jan 16 16:43:22 2020
+Connected with client  193, Thu Jan 16 16:43:22 2020
+Connected with client  325, Thu Jan 16 16:43:22 2020
+Connected with client  202, Thu Jan 16 16:43:22 2020
+Connected with client  341, Thu Jan 16 16:43:22 2020
+Connected with client  191, Thu Jan 16 16:43:22 2020
+Connected with client  121, Thu Jan 16 16:43:22 2020
+Connected with client  184, Thu Jan 16 16:43:22 2020
+Connected with client  342, Thu Jan 16 16:43:22 2020
+Connected with client  123, Thu Jan 16 16:43:22 2020
+Connected with client  125, Thu Jan 16 16:43:22 2020
+Connected with client  126, Thu Jan 16 16:43:22 2020
+Connected with client  127, Thu Jan 16 16:43:22 2020
+Connected with client  128, Thu Jan 16 16:43:22 2020
+Connected with client  129, Thu Jan 16 16:43:22 2020
+Connected with client  186, Thu Jan 16 16:43:22 2020
+Connected with client  203, Thu Jan 16 16:43:22 2020
+Connected with client  130, Thu Jan 16 16:43:22 2020
+Connected with client  131, Thu Jan 16 16:43:22 2020
+Connected with client  132, Thu Jan 16 16:43:22 2020
+Connected with client  199, Thu Jan 16 16:43:22 2020
+Connected with client  189, Thu Jan 16 16:43:22 2020
+Connected with client  76, Thu Jan 16 16:43:22 2020
+Connected with client  146, Thu Jan 16 16:43:23 2020
+Connected with client  147, Thu Jan 16 16:43:23 2020
+Connected with client  148, Thu Jan 16 16:43:23 2020
+Connected with client  322, Thu Jan 16 16:43:23 2020
+Connected with client  195, Thu Jan 16 16:43:22 2020
+Connected with client  323, Thu Jan 16 16:43:23 2020
+Connected with client  324, Thu Jan 16 16:43:23 2020
+Connected with client  215, Thu Jan 16 16:43:22 2020
+Connected with client  359, Thu Jan 16 16:43:23 2020
+Connected with client  360, Thu Jan 16 16:43:23 2020
+Connected with client  81, Thu Jan 16 16:43:23 2020
+Connected with client  361, Thu Jan 16 16:43:23 2020
+Connected with client  133, Thu Jan 16 16:43:22 2020
+Connected with client  134, Thu Jan 16 16:43:22 2020
+Connected with client  135, Thu Jan 16 16:43:22 2020
+Connected with client  136, Thu Jan 16 16:43:22 2020
+Connected with client  426, Thu Jan 16 16:43:23 2020
+Connected with client  96, Thu Jan 16 16:43:23 2020
+Connected with client  97, Thu Jan 16 16:43:23 2020
+Connected with client  153, Thu Jan 16 16:43:22 2020
+Connected with client  154, Thu Jan 16 16:43:22 2020
+Connected with client  155, Thu Jan 16 16:43:22 2020
+Connected with client  156, Thu Jan 16 16:43:22 2020
+Connected with client  98, Thu Jan 16 16:43:23 2020
+Connected with client  160, Thu Jan 16 16:43:22 2020
+Connected with client  99, Thu Jan 16 16:43:23 2020
+Connected with client  161, Thu Jan 16 16:43:22 2020
+Connected with client  100, Thu Jan 16 16:43:23 2020
+Connected with client  101, Thu Jan 16 16:43:23 2020
+Connected with client  102, Thu Jan 16 16:43:23 2020
+Connected with client  108, Thu Jan 16 16:43:23 2020
+Connected with client  110, Thu Jan 16 16:43:23 2020
+Connected with client  111, Thu Jan 16 16:43:23 2020
+Connected with client  287, Thu Jan 16 16:43:22 2020
+Connected with client  288, Thu Jan 16 16:43:22 2020
+Connected with client  114, Thu Jan 16 16:43:23 2020
+Connected with client  115, Thu Jan 16 16:43:23 2020
+Connected with client  116, Thu Jan 16 16:43:23 2020
+Connected with client  119, Thu Jan 16 16:43:23 2020
+Connected with client  92, Thu Jan 16 16:43:22 2020
+Connected with client  120, Thu Jan 16 16:43:23 2020
+Connected with client  137, Thu Jan 16 16:43:23 2020
+Connected with client  138, Thu Jan 16 16:43:23 2020
+Connected with client  139, Thu Jan 16 16:43:23 2020
+Connected with client  140, Thu Jan 16 16:43:23 2020
+Connected with client  254, Thu Jan 16 16:43:23 2020
+Connected with client  142, Thu Jan 16 16:43:23 2020
+Connected with client  143, Thu Jan 16 16:43:23 2020
+Connected with client  144, Thu Jan 16 16:43:23 2020
+Connected with client  145, Thu Jan 16 16:43:23 2020
+Connected with client  165, Thu Jan 16 16:43:23 2020
+Connected with client  166, Thu Jan 16 16:43:23 2020
+Connected with client  167, Thu Jan 16 16:43:23 2020
+Connected with client  168, Thu Jan 16 16:43:23 2020
+Connected with client  291, Thu Jan 16 16:43:23 2020
+Connected with client  171, Thu Jan 16 16:43:23 2020
+Connected with client  277, Thu Jan 16 16:43:23 2020
+Connected with client  173, Thu Jan 16 16:43:23 2020
+Connected with client  174, Thu Jan 16 16:43:23 2020
+Connected with client  175, Thu Jan 16 16:43:23 2020
+Connected with client  176, Thu Jan 16 16:43:23 2020
+Connected with client  279, Thu Jan 16 16:43:23 2020
+Connected with client  177, Thu Jan 16 16:43:23 2020
+Connected with client  306, Thu Jan 16 16:43:23 2020
+Connected with client  296, Thu Jan 16 16:43:23 2020
+Connected with client  307, Thu Jan 16 16:43:23 2020
+Connected with client  308, Thu Jan 16 16:43:23 2020
+Connected with client  280, Thu Jan 16 16:43:23 2020
+Connected with client  310, Thu Jan 16 16:43:23 2020
+Connected with client  311, Thu Jan 16 16:43:23 2020
+Connected with client  281, Thu Jan 16 16:43:23 2020
+Connected with client  313, Thu Jan 16 16:43:23 2020
+Connected with client  334, Thu Jan 16 16:43:23 2020
+Connected with client  337, Thu Jan 16 16:43:23 2020
+Connected with client  338, Thu Jan 16 16:43:23 2020
+Connected with client  339, Thu Jan 16 16:43:23 2020
+Connected with client  371, Thu Jan 16 16:43:23 2020
+Connected with client  372, Thu Jan 16 16:43:23 2020
+Connected with client  400, Thu Jan 16 16:43:23 2020
+Connected with client  402, Thu Jan 16 16:43:23 2020
+Connected with client  403, Thu Jan 16 16:43:23 2020
+Connected with client  406, Thu Jan 16 16:43:23 2020
+Connected with client  413, Thu Jan 16 16:43:23 2020
+Connected with client  414, Thu Jan 16 16:43:23 2020
+Connected with client  351, Thu Jan 16 16:43:23 2020
+Connected with client  352, Thu Jan 16 16:43:23 2020
+Connected with client  353, Thu Jan 16 16:43:23 2020
+Connected with client  122, Thu Jan 16 16:43:22 2020
+Connected with client  205, Thu Jan 16 16:43:22 2020
+Connected with client  170, Thu Jan 16 16:43:23 2020
+Connected with client  274, Thu Jan 16 16:43:23 2020
+Connected with client  244, Thu Jan 16 16:43:23 2020
+Connected with client  370, Thu Jan 16 16:43:23 2020
+Connected with client  349, Thu Jan 16 16:43:23 2020
+Connected with client  350, Thu Jan 16 16:43:23 2020
+Connected with client  335, Thu Jan 16 16:43:23 2020
+Connected with client  266, Thu Jan 16 16:43:23 2020
+Connected with client  318, Thu Jan 16 16:43:23 2020
+Connected with client  328, Thu Jan 16 16:43:23 2020
+Connected with client  314, Thu Jan 16 16:43:23 2020
+Connected with client  369, Thu Jan 16 16:43:23 2020
+Connected with client  329, Thu Jan 16 16:43:23 2020
+Connected with client  317, Thu Jan 16 16:43:23 2020
+Connected with client  327, Thu Jan 16 16:43:23 2020
+Connected with client  315, Thu Jan 16 16:43:23 2020
+Connected with client  326, Thu Jan 16 16:43:23 2020
+Connected with client  72, Thu Jan 16 16:43:23 2020
+Connected with client  362, Thu Jan 16 16:43:23 2020
+Connected with client  363, Thu Jan 16 16:43:23 2020
+Connected with client  364, Thu Jan 16 16:43:23 2020
+Connected with client  343, Thu Jan 16 16:43:23 2020
+Connected with client  344, Thu Jan 16 16:43:23 2020
+Connected with client  345, Thu Jan 16 16:43:23 2020
+Connected with client  346, Thu Jan 16 16:43:23 2020
+Connected with client  357, Thu Jan 16 16:43:23 2020
+Connected with client  354, Thu Jan 16 16:43:23 2020
+Connected with client  355, Thu Jan 16 16:43:23 2020
+Connected with client  356, Thu Jan 16 16:43:23 2020
+Connected with client  368, Thu Jan 16 16:43:23 2020
+Connected with client  124, Thu Jan 16 16:43:23 2020
+Connected with client  396, Thu Jan 16 16:43:23 2020
+Connected with client  397, Thu Jan 16 16:43:23 2020
+Connected with client  398, Thu Jan 16 16:43:23 2020
+Connected with client  399, Thu Jan 16 16:43:23 2020
+Connected with client  404, Thu Jan 16 16:43:23 2020
+Connected with client  405, Thu Jan 16 16:43:23 2020
+Connected with client  411, Thu Jan 16 16:43:23 2020
+Connected with client  412, Thu Jan 16 16:43:23 2020
+Connected with client  415, Thu Jan 16 16:43:23 2020
+Connected with client  416, Thu Jan 16 16:43:23 2020
+Connected with client  421, Thu Jan 16 16:43:23 2020
+Connected with client  422, Thu Jan 16 16:43:23 2020
+Connected with client  423, Thu Jan 16 16:43:23 2020
+Connected with client  427, Thu Jan 16 16:43:23 2020
+Connected with client  428, Thu Jan 16 16:43:23 2020
+Connected with client  429, Thu Jan 16 16:43:23 2020
+Connected with client  430, Thu Jan 16 16:43:23 2020
+Connected with client  431, Thu Jan 16 16:43:23 2020
+Connected with client  95, Thu Jan 16 16:43:23 2020
+Connected with client  253, Thu Jan 16 16:43:23 2020
+Connected with client  258, Thu Jan 16 16:43:23 2020
+Connected with client  252, Thu Jan 16 16:43:23 2020
+Connected with client  141, Thu Jan 16 16:43:23 2020
+Connected with client  366, Thu Jan 16 16:43:23 2020
+Connected with client  172, Thu Jan 16 16:43:23 2020
+Connected with client  309, Thu Jan 16 16:43:23 2020
+Connected with client  271, Thu Jan 16 16:43:23 2020
+Connected with client  261, Thu Jan 16 16:43:23 2020
+Connected with client  262, Thu Jan 16 16:43:23 2020
+Connected with client  270, Thu Jan 16 16:43:23 2020
+Connected with client  272, Thu Jan 16 16:43:23 2020
+Connected with client  276, Thu Jan 16 16:43:23 2020
+Connected with client  282, Thu Jan 16 16:43:23 2020
+Connected with client  292, Thu Jan 16 16:43:23 2020
+Connected with client  294, Thu Jan 16 16:43:23 2020
+Connected with client  373, Thu Jan 16 16:43:23 2020
+Connected with client  374, Thu Jan 16 16:43:23 2020
+Connected with client  375, Thu Jan 16 16:43:23 2020
+Connected with client  376, Thu Jan 16 16:43:23 2020
+Connected with client  377, Thu Jan 16 16:43:23 2020
+Connected with client  378, Thu Jan 16 16:43:23 2020
+Connected with client  379, Thu Jan 16 16:43:23 2020
+Connected with client  380, Thu Jan 16 16:43:23 2020
+Connected with client  381, Thu Jan 16 16:43:23 2020
+Connected with client  383, Thu Jan 16 16:43:23 2020
+Connected with client  384, Thu Jan 16 16:43:23 2020
+Connected with client  385, Thu Jan 16 16:43:23 2020
+Connected with client  386, Thu Jan 16 16:43:23 2020
+Connected with client  387, Thu Jan 16 16:43:23 2020
+Connected with client  388, Thu Jan 16 16:43:23 2020
+Connected with client  389, Thu Jan 16 16:43:23 2020
+Connected with client  382, Thu Jan 16 16:43:23 2020
+Connected with client  391, Thu Jan 16 16:43:23 2020
+Connected with client  392, Thu Jan 16 16:43:23 2020
+Connected with client  393, Thu Jan 16 16:43:23 2020
+Connected with client  394, Thu Jan 16 16:43:23 2020
+Connected with client  395, Thu Jan 16 16:43:23 2020
+Connected with client  407, Thu Jan 16 16:43:23 2020
+Connected with client  408, Thu Jan 16 16:43:23 2020
+Connected with client  409, Thu Jan 16 16:43:23 2020
+Connected with client  410, Thu Jan 16 16:43:23 2020
+Connected with client  417, Thu Jan 16 16:43:23 2020
+Connected with client  418, Thu Jan 16 16:43:23 2020
+Connected with client  419, Thu Jan 16 16:43:23 2020
+Connected with client  420, Thu Jan 16 16:43:23 2020
+Connected with client  424, Thu Jan 16 16:43:23 2020
+Connected with client  425, Thu Jan 16 16:43:23 2020
+Connected with client  289, Thu Jan 16 16:43:23 2020
+Connected with client  260, Thu Jan 16 16:43:23 2020
+Connected with client  273, Thu Jan 16 16:43:23 2020
+Connected with client  269, Thu Jan 16 16:43:23 2020
+Connected with client  263, Thu Jan 16 16:43:23 2020
+Connected with client  264, Thu Jan 16 16:43:23 2020
+Connected with client  265, Thu Jan 16 16:43:23 2020
+Connected with client  267, Thu Jan 16 16:43:23 2020
+Connected with client  275, Thu Jan 16 16:43:23 2020
+Connected with client  278, Thu Jan 16 16:43:23 2020
+Connected with client  284, Thu Jan 16 16:43:23 2020
+Connected with client  293, Thu Jan 16 16:43:23 2020
+Connected with client  283, Thu Jan 16 16:43:23 2020
+Connected with client  312, Thu Jan 16 16:43:23 2020
+Connected with client  316, Thu Jan 16 16:43:23 2020
+Connected with client  330, Thu Jan 16 16:43:23 2020
+Connected with client  432, Thu Jan 16 16:43:23 2020
+Connected with client  367, Thu Jan 16 16:43:23 2020
+Connected with client  169, Thu Jan 16 16:43:23 2020
+Connected with client  332, Thu Jan 16 16:43:23 2020
+Connected with client  390, Thu Jan 16 16:43:23 2020
+Connected with client  300, Thu Jan 16 16:43:23 2020
+Connected with client  319, Thu Jan 16 16:43:23 2020
+Connected with client  333, Thu Jan 16 16:43:23 2020
+Connected with client  302, Thu Jan 16 16:43:23 2020
+Connected with client  321, Thu Jan 16 16:43:23 2020
+Connected with client  347, Thu Jan 16 16:43:23 2020
+Connected with client  358, Thu Jan 16 16:43:23 2020
+Connected with client  305, Thu Jan 16 16:43:23 2020
+Connected with client  301, Thu Jan 16 16:43:23 2020
+Connected with client  320, Thu Jan 16 16:43:23 2020
+Connected with client  331, Thu Jan 16 16:43:23 2020
+Connected with client  348, Thu Jan 16 16:43:23 2020
+Connected with client  304, Thu Jan 16 16:43:23 2020
+Connected with client  303, Thu Jan 16 16:43:23 2020
+Connected with client  340, Thu Jan 16 16:43:23 2020
+Connected with client  298, Thu Jan 16 16:43:23 2020
+Connected with client  259, Thu Jan 16 16:43:23 2020
+Connected with client  257, Thu Jan 16 16:43:23 2020
+Connected with client  256, Thu Jan 16 16:43:23 2020
+Connected with client  255, Thu Jan 16 16:43:23 2020
+Connected with client  299, Thu Jan 16 16:43:23 2020
+Connected with client  297, Thu Jan 16 16:43:23 2020
+Connected with client  457, Thu Jan 16 16:43:23 2020
+Connected with client  465, Thu Jan 16 16:43:23 2020
+Connected with client  443, Thu Jan 16 16:43:23 2020
+Connected with client  439, Thu Jan 16 16:43:23 2020
+Connected with client  437, Thu Jan 16 16:43:23 2020
+Connected with client  434, Thu Jan 16 16:43:23 2020
+Connected with client  440, Thu Jan 16 16:43:23 2020
+Connected with client  464, Thu Jan 16 16:43:23 2020
+Connected with client  455, Thu Jan 16 16:43:23 2020
+Connected with client  433, Thu Jan 16 16:43:23 2020
+Connected with client  441, Thu Jan 16 16:43:23 2020
+Connected with client  463, Thu Jan 16 16:43:23 2020
+Connected with client  435, Thu Jan 16 16:43:23 2020
+Connected with client  459, Thu Jan 16 16:43:23 2020
+Connected with client  446, Thu Jan 16 16:43:23 2020
+Connected with client  456, Thu Jan 16 16:43:23 2020
+Connected with client  458, Thu Jan 16 16:43:23 2020
+Connected with client  445, Thu Jan 16 16:43:23 2020
+Connected with client  438, Thu Jan 16 16:43:23 2020
+Connected with client  448, Thu Jan 16 16:43:23 2020
+Connected with client  436, Thu Jan 16 16:43:23 2020
+Connected with client  449, Thu Jan 16 16:43:23 2020
+Connected with client  450, Thu Jan 16 16:43:23 2020
+Connected with client  451, Thu Jan 16 16:43:23 2020
+Connected with client  452, Thu Jan 16 16:43:23 2020
+Connected with client  453, Thu Jan 16 16:43:23 2020
+Connected with client  454, Thu Jan 16 16:43:23 2020
+Connected with client  470, Thu Jan 16 16:43:23 2020
+Connected with client  475, Thu Jan 16 16:43:23 2020
+Connected with client  471, Thu Jan 16 16:43:23 2020
+Connected with client  476, Thu Jan 16 16:43:23 2020
+Connected with client  472, Thu Jan 16 16:43:23 2020
+Connected with client  479, Thu Jan 16 16:43:23 2020
+Connected with client  467, Thu Jan 16 16:43:23 2020
+Connected with client  481, Thu Jan 16 16:43:23 2020
+Connected with client  462, Thu Jan 16 16:43:23 2020
+Connected with client  485, Thu Jan 16 16:43:23 2020
+Connected with client  444, Thu Jan 16 16:43:23 2020
+Connected with client  447, Thu Jan 16 16:43:23 2020
+Connected with client  494, Thu Jan 16 16:43:23 2020
+Connected with client  442, Thu Jan 16 16:43:23 2020
+Connected with client  468, Thu Jan 16 16:43:23 2020
+Connected with client  461, Thu Jan 16 16:43:23 2020
+Connected with client  478, Thu Jan 16 16:43:23 2020
+Connected with client  490, Thu Jan 16 16:43:23 2020
+Connected with client  365, Thu Jan 16 16:43:23 2020
+Connected with client  507, Thu Jan 16 16:43:23 2020
+Connected with client  482, Thu Jan 16 16:43:23 2020
+Connected with client  514, Thu Jan 16 16:43:23 2020
+Connected with client  497, Thu Jan 16 16:43:23 2020
+Connected with client  493, Thu Jan 16 16:43:23 2020
+Connected with client  515, Thu Jan 16 16:43:23 2020
+Connected with client  528, Thu Jan 16 16:43:23 2020
+Connected with client  501, Thu Jan 16 16:43:23 2020
+Connected with client  504, Thu Jan 16 16:43:23 2020
+Connected with client  505, Thu Jan 16 16:43:23 2020
+Connected with client  580, Thu Jan 16 16:43:23 2020
+Connected with client  509, Thu Jan 16 16:43:23 2020
+Connected with client  541, Thu Jan 16 16:43:23 2020
+Connected with client  513, Thu Jan 16 16:43:23 2020
+Connected with client  512, Thu Jan 16 16:43:23 2020
+Connected with client  545, Thu Jan 16 16:43:23 2020
+Connected with client  586, Thu Jan 16 16:43:23 2020
+Connected with client  522, Thu Jan 16 16:43:23 2020
+Connected with client  584, Thu Jan 16 16:43:23 2020
+Connected with client  460, Thu Jan 16 16:43:23 2020
+Connected with client  473, Thu Jan 16 16:43:23 2020
+Connected with client  556, Thu Jan 16 16:43:23 2020
+Connected with client  557, Thu Jan 16 16:43:23 2020
+Connected with client  559, Thu Jan 16 16:43:23 2020
+Connected with client  564, Thu Jan 16 16:43:23 2020
+Connected with client  565, Thu Jan 16 16:43:23 2020
+Connected with client  466, Thu Jan 16 16:43:23 2020
+Connected with client  484, Thu Jan 16 16:43:23 2020
+Connected with client  483, Thu Jan 16 16:43:23 2020
+Connected with client  480, Thu Jan 16 16:43:23 2020
+Connected with client  488, Thu Jan 16 16:43:23 2020
+Connected with client  489, Thu Jan 16 16:43:23 2020
+Connected with client  487, Thu Jan 16 16:43:23 2020
+Connected with client  495, Thu Jan 16 16:43:23 2020
+Connected with client  518, Thu Jan 16 16:43:23 2020
+Connected with client  500, Thu Jan 16 16:43:23 2020
+Connected with client  503, Thu Jan 16 16:43:23 2020
+Connected with client  520, Thu Jan 16 16:43:23 2020
+Connected with client  492, Thu Jan 16 16:43:23 2020
+Connected with client  502, Thu Jan 16 16:43:23 2020
+Connected with client  506, Thu Jan 16 16:43:23 2020
+Connected with client  519, Thu Jan 16 16:43:23 2020
+Connected with client  511, Thu Jan 16 16:43:23 2020
+Connected with client  582, Thu Jan 16 16:43:23 2020
+Connected with client  583, Thu Jan 16 16:43:23 2020
+Connected with client  499, Thu Jan 16 16:43:23 2020
+Connected with client  491, Thu Jan 16 16:43:23 2020
+Connected with client  579, Thu Jan 16 16:43:23 2020
+Connected with client  498, Thu Jan 16 16:43:23 2020
+Connected with client  508, Thu Jan 16 16:43:23 2020
+Connected with client  526, Thu Jan 16 16:43:23 2020
+Connected with client  496, Thu Jan 16 16:43:23 2020
+Connected with client  581, Thu Jan 16 16:43:23 2020
+Connected with client  531, Thu Jan 16 16:43:23 2020
+Connected with client  532, Thu Jan 16 16:43:23 2020
+Connected with client  533, Thu Jan 16 16:43:23 2020
+Connected with client  536, Thu Jan 16 16:43:23 2020
+Connected with client  537, Thu Jan 16 16:43:23 2020
+Connected with client  538, Thu Jan 16 16:43:23 2020
+Connected with client  517, Thu Jan 16 16:43:23 2020
+Connected with client  516, Thu Jan 16 16:43:24 2020
+Connected with client  547, Thu Jan 16 16:43:24 2020
+Connected with client  548, Thu Jan 16 16:43:24 2020
+Connected with client  551, Thu Jan 16 16:43:24 2020
+Connected with client  553, Thu Jan 16 16:43:24 2020
+Connected with client  554, Thu Jan 16 16:43:24 2020
+Connected with client  555, Thu Jan 16 16:43:24 2020
+Connected with client  558, Thu Jan 16 16:43:24 2020
+Connected with client  560, Thu Jan 16 16:43:24 2020
+Connected with client  561, Thu Jan 16 16:43:24 2020
+Connected with client  568, Thu Jan 16 16:43:24 2020
+Connected with client  562, Thu Jan 16 16:43:24 2020
+Connected with client  563, Thu Jan 16 16:43:24 2020
+Connected with client  567, Thu Jan 16 16:43:24 2020
+Connected with client  521, Thu Jan 16 16:43:24 2020
+Connected with client  570, Thu Jan 16 16:43:24 2020
+Connected with client  571, Thu Jan 16 16:43:24 2020
+Connected with client  578, Thu Jan 16 16:43:24 2020
+Connected with client  588, Thu Jan 16 16:43:24 2020
+Connected with client  594, Thu Jan 16 16:43:24 2020
+Connected with client  596, Thu Jan 16 16:43:24 2020
+Connected with client  597, Thu Jan 16 16:43:24 2020
+Connected with client  598, Thu Jan 16 16:43:24 2020
+Connected with client  606, Thu Jan 16 16:43:24 2020
+Connected with client  607, Thu Jan 16 16:43:24 2020
+Connected with client  608, Thu Jan 16 16:43:24 2020
+Connected with client  609, Thu Jan 16 16:43:24 2020
+Connected with client  610, Thu Jan 16 16:43:24 2020
+Connected with client  523, Thu Jan 16 16:43:24 2020
+Connected with client  585, Thu Jan 16 16:43:24 2020
+Connected with client  477, Thu Jan 16 16:43:24 2020
+Connected with client  612, Thu Jan 16 16:43:24 2020
+Connected with client  529, Thu Jan 16 16:43:24 2020
+Connected with client  530, Thu Jan 16 16:43:24 2020
+Connected with client  534, Thu Jan 16 16:43:24 2020
+Connected with client  589, Thu Jan 16 16:43:24 2020
+Connected with client  590, Thu Jan 16 16:43:24 2020
+Connected with client  614, Thu Jan 16 16:43:24 2020
+Connected with client  591, Thu Jan 16 16:43:24 2020
+Connected with client  615, Thu Jan 16 16:43:24 2020
+Connected with client  592, Thu Jan 16 16:43:24 2020
+Connected with client  613, Thu Jan 16 16:43:24 2020
+Connected with client  593, Thu Jan 16 16:43:24 2020
+Connected with client  599, Thu Jan 16 16:43:24 2020
+Connected with client  601, Thu Jan 16 16:43:24 2020
+Connected with client  602, Thu Jan 16 16:43:24 2020
+Connected with client  603, Thu Jan 16 16:43:24 2020
+Connected with client  604, Thu Jan 16 16:43:24 2020
+Connected with client  611, Thu Jan 16 16:43:24 2020
+Connected with client  540, Thu Jan 16 16:43:24 2020
+Connected with client  543, Thu Jan 16 16:43:24 2020
+Connected with client  535, Thu Jan 16 16:43:24 2020
+Connected with client  544, Thu Jan 16 16:43:24 2020
+Connected with client  546, Thu Jan 16 16:43:24 2020
+Connected with client  549, Thu Jan 16 16:43:24 2020
+Connected with client  550, Thu Jan 16 16:43:24 2020
+Connected with client  552, Thu Jan 16 16:43:24 2020
+Connected with client  566, Thu Jan 16 16:43:24 2020
+Connected with client  539, Thu Jan 16 16:43:24 2020
+Connected with client  587, Thu Jan 16 16:43:24 2020
+Connected with client  574, Thu Jan 16 16:43:24 2020
+Connected with client  575, Thu Jan 16 16:43:24 2020
+Connected with client  569, Thu Jan 16 16:43:24 2020
+Connected with client  524, Thu Jan 16 16:43:24 2020
+Connected with client  622, Thu Jan 16 16:43:24 2020
+Connected with client  620, Thu Jan 16 16:43:24 2020
+Connected with client  621, Thu Jan 16 16:43:24 2020
+Connected with client  616, Thu Jan 16 16:43:24 2020
+Connected with client  625, Thu Jan 16 16:43:24 2020
+Connected with client  626, Thu Jan 16 16:43:24 2020
+Connected with client  624, Thu Jan 16 16:43:24 2020
+Connected with client  623, Thu Jan 16 16:43:24 2020
+Connected with client  619, Thu Jan 16 16:43:24 2020
+Connected with client  617, Thu Jan 16 16:43:24 2020
+Connected with client  618, Thu Jan 16 16:43:24 2020
+Connected with client  527, Thu Jan 16 16:43:24 2020
+Connected with client  627, Thu Jan 16 16:43:24 2020
+Connected with client  605, Thu Jan 16 16:43:24 2020
+Connected with client  631, Thu Jan 16 16:43:24 2020
+Connected with client  633, Thu Jan 16 16:43:24 2020
+Connected with client  629, Thu Jan 16 16:43:24 2020
+Connected with client  634, Thu Jan 16 16:43:24 2020
+Connected with client  630, Thu Jan 16 16:43:24 2020
+Connected with client  632, Thu Jan 16 16:43:24 2020
+Connected with client  635, Thu Jan 16 16:43:24 2020
+Connected with client  628, Thu Jan 16 16:43:24 2020
+Connected with client  676, Thu Jan 16 16:43:24 2020
+Connected with client  670, Thu Jan 16 16:43:24 2020
+Connected with client  682, Thu Jan 16 16:43:24 2020
+Connected with client  693, Thu Jan 16 16:43:24 2020
+Connected with client  665, Thu Jan 16 16:43:24 2020
+Connected with client  681, Thu Jan 16 16:43:24 2020
+Connected with client  684, Thu Jan 16 16:43:24 2020
+Connected with client  669, Thu Jan 16 16:43:24 2020
+Connected with client  679, Thu Jan 16 16:43:24 2020
+Connected with client  678, Thu Jan 16 16:43:24 2020
+Connected with client  666, Thu Jan 16 16:43:24 2020
+Connected with client  691, Thu Jan 16 16:43:24 2020
+Connected with client  667, Thu Jan 16 16:43:24 2020
+Connected with client  683, Thu Jan 16 16:43:24 2020
+Connected with client  661, Thu Jan 16 16:43:24 2020
+Connected with client  668, Thu Jan 16 16:43:24 2020
+Connected with client  677, Thu Jan 16 16:43:24 2020
+Connected with client  680, Thu Jan 16 16:43:24 2020
+Connected with client  638, Thu Jan 16 16:43:24 2020
+Connected with client  664, Thu Jan 16 16:43:24 2020
+Connected with client  673, Thu Jan 16 16:43:24 2020
+Connected with client  674, Thu Jan 16 16:43:24 2020
+Connected with client  636, Thu Jan 16 16:43:24 2020
+Connected with client  653, Thu Jan 16 16:43:24 2020
+Connected with client  658, Thu Jan 16 16:43:24 2020
+Connected with client  659, Thu Jan 16 16:43:24 2020
+Connected with client  637, Thu Jan 16 16:43:24 2020
+Connected with client  696, Thu Jan 16 16:43:24 2020
+Connected with client  672, Thu Jan 16 16:43:24 2020
+Connected with client  675, Thu Jan 16 16:43:24 2020
+Connected with client  660, Thu Jan 16 16:43:24 2020
+Connected with client  671, Thu Jan 16 16:43:24 2020
+Connected with client  662, Thu Jan 16 16:43:24 2020
+Connected with client  663, Thu Jan 16 16:43:24 2020
+Connected with client  692, Thu Jan 16 16:43:24 2020
+Created socket, Thu Jan 16 16:43:28 2020
+Socket address info is defined., Thu Jan 16 16:43:28 2020
+Socket is binded., Thu Jan 16 16:43:28 2020
+Server started listening on port  4541, Thu Jan 16 16:43:28 2020
+Connected with client  3, Thu Jan 16 16:43:28 2020
+Connected with client  4, Thu Jan 16 16:43:28 2020
+Connected with client  7, Thu Jan 16 16:43:28 2020
+Connected with client  19, Thu Jan 16 16:43:28 2020
+Connected with client  20, Thu Jan 16 16:43:28 2020
+Connected with client  8, Thu Jan 16 16:43:28 2020
+Connected with client  13, Thu Jan 16 16:43:28 2020
+Connected with client  21, Thu Jan 16 16:43:29 2020
+Connected with client  10, Thu Jan 16 16:43:29 2020
+Connected with client  22, Thu Jan 16 16:43:29 2020
+Connected with client  97, Thu Jan 16 16:43:29 2020
+Connected with client  100, Thu Jan 16 16:43:29 2020
+Connected with client  98, Thu Jan 16 16:43:29 2020
+Connected with client  33, Thu Jan 16 16:43:29 2020
+Connected with client  45, Thu Jan 16 16:43:29 2020
+Connected with client  52, Thu Jan 16 16:43:29 2020
+Connected with client  51, Thu Jan 16 16:43:29 2020
+Connected with client  54, Thu Jan 16 16:43:29 2020
+Connected with client  133, Thu Jan 16 16:43:29 2020
+Connected with client  148, Thu Jan 16 16:43:29 2020
+Connected with client  79, Thu Jan 16 16:43:29 2020
+Connected with client  77, Thu Jan 16 16:43:29 2020
+Connected with client  70, Thu Jan 16 16:43:29 2020
+Connected with client  71, Thu Jan 16 16:43:29 2020
+Connected with client  90, Thu Jan 16 16:43:29 2020
+Connected with client  66, Thu Jan 16 16:43:29 2020
+Connected with client  76, Thu Jan 16 16:43:29 2020
+Connected with client  65, Thu Jan 16 16:43:29 2020
+Connected with client  72, Thu Jan 16 16:43:29 2020
+Connected with client  69, Thu Jan 16 16:43:29 2020
+Connected with client  68, Thu Jan 16 16:43:29 2020
+Connected with client  78, Thu Jan 16 16:43:29 2020
+Connected with client  96, Thu Jan 16 16:43:29 2020
+Connected with client  129, Thu Jan 16 16:43:29 2020
+Connected with client  94, Thu Jan 16 16:43:29 2020
+Connected with client  35, Thu Jan 16 16:43:29 2020
+Connected with client  80, Thu Jan 16 16:43:29 2020
+Connected with client  151, Thu Jan 16 16:43:29 2020
+Connected with client  131, Thu Jan 16 16:43:29 2020
+Connected with client  202, Thu Jan 16 16:43:29 2020
+Connected with client  161, Thu Jan 16 16:43:29 2020
+Connected with client  75, Thu Jan 16 16:43:29 2020
+Connected with client  74, Thu Jan 16 16:43:29 2020
+Connected with client  73, Thu Jan 16 16:43:29 2020
+Connected with client  64, Thu Jan 16 16:43:29 2020
+Connected with client  87, Thu Jan 16 16:43:29 2020
+Connected with client  194, Thu Jan 16 16:43:29 2020
+Connected with client  186, Thu Jan 16 16:43:29 2020
+Connected with client  184, Thu Jan 16 16:43:29 2020
+Connected with client  114, Thu Jan 16 16:43:29 2020
+Connected with client  39, Thu Jan 16 16:43:29 2020
+Connected with client  63, Thu Jan 16 16:43:29 2020
+Connected with client  199, Thu Jan 16 16:43:29 2020
+Connected with client  195, Thu Jan 16 16:43:29 2020
+Connected with client  198, Thu Jan 16 16:43:29 2020
+Connected with client  187, Thu Jan 16 16:43:29 2020
+Connected with client  126, Thu Jan 16 16:43:29 2020
+Connected with client  123, Thu Jan 16 16:43:29 2020
+Connected with client  125, Thu Jan 16 16:43:29 2020
+Created socket, Thu Jan 16 16:43:29 2020
+Socket address info is defined., Thu Jan 16 16:43:29 2020
+Created socket, Thu Jan 16 16:43:32 2020
+Socket address info is defined., Thu Jan 16 16:43:32 2020
+Socket is binded., Thu Jan 16 16:43:32 2020
+Server started listening on port  4541, Thu Jan 16 16:43:32 2020
+Connected with client  1, Thu Jan 16 16:43:32 2020
+Connected with client  3, Thu Jan 16 16:43:32 2020
+Connected with client  2, Thu Jan 16 16:43:32 2020
+Connected with client  7, Thu Jan 16 16:43:32 2020
+Connected with client  6, Thu Jan 16 16:43:32 2020
+Connected with client  10, Thu Jan 16 16:43:32 2020
+Connected with client  17, Thu Jan 16 16:43:32 2020
+Connected with client  18, Thu Jan 16 16:43:32 2020
+Connected with client  20, Thu Jan 16 16:43:32 2020
+Connected with client  21, Thu Jan 16 16:43:32 2020
+Connected with client  39, Thu Jan 16 16:43:32 2020
+Connected with client  50, Thu Jan 16 16:43:32 2020
+Connected with client  48, Thu Jan 16 16:43:32 2020
+Connected with client  31, Thu Jan 16 16:43:32 2020
+Connected with client  51, Thu Jan 16 16:43:32 2020
+Connected with client  35, Thu Jan 16 16:43:32 2020
+Connected with client  13, Thu Jan 16 16:43:32 2020
+Connected with client  40, Thu Jan 16 16:43:32 2020
+Connected with client  44, Thu Jan 16 16:43:32 2020
+Connected with client  52, Thu Jan 16 16:43:32 2020
+Connected with client  53, Thu Jan 16 16:43:32 2020
+Connected with client  55, Thu Jan 16 16:43:32 2020
+Connected with client  54, Thu Jan 16 16:43:32 2020
+Connected with client  62, Thu Jan 16 16:43:32 2020
+Connected with client  56, Thu Jan 16 16:43:32 2020
+Connected with client  58, Thu Jan 16 16:43:32 2020
+Connected with client  61, Thu Jan 16 16:43:32 2020
+Connected with client  60, Thu Jan 16 16:43:32 2020
+Connected with client  79, Thu Jan 16 16:43:32 2020
+Connected with client  80, Thu Jan 16 16:43:32 2020
+Connected with client  89, Thu Jan 16 16:43:32 2020
+Connected with client  66, Thu Jan 16 16:43:32 2020
+Connected with client  73, Thu Jan 16 16:43:32 2020
+Connected with client  74, Thu Jan 16 16:43:32 2020
+Connected with client  67, Thu Jan 16 16:43:32 2020
+Connected with client  63, Thu Jan 16 16:43:32 2020
+Connected with client  78, Thu Jan 16 16:43:32 2020
+Connected with client  64, Thu Jan 16 16:43:32 2020
+Connected with client  81, Thu Jan 16 16:43:32 2020
+Connected with client  72, Thu Jan 16 16:43:32 2020
+Connected with client  82, Thu Jan 16 16:43:32 2020
+Connected with client  83, Thu Jan 16 16:43:32 2020
+Connected with client  77, Thu Jan 16 16:43:32 2020
+Connected with client  86, Thu Jan 16 16:43:32 2020
+Connected with client  111, Thu Jan 16 16:43:32 2020
+Connected with client  87, Thu Jan 16 16:43:32 2020
+Connected with client  84, Thu Jan 16 16:43:32 2020
+Connected with client  85, Thu Jan 16 16:43:32 2020
+Connected with client  105, Thu Jan 16 16:43:32 2020
+Connected with client  106, Thu Jan 16 16:43:32 2020
+Connected with client  115, Thu Jan 16 16:43:32 2020
+Connected with client  117, Thu Jan 16 16:43:32 2020
+Connected with client  88, Thu Jan 16 16:43:32 2020
+Connected with client  114, Thu Jan 16 16:43:32 2020
+Connected with client  91, Thu Jan 16 16:43:32 2020
+Connected with client  92, Thu Jan 16 16:43:32 2020
+Connected with client  100, Thu Jan 16 16:43:32 2020
+Connected with client  144, Thu Jan 16 16:43:32 2020
+Connected with client  101, Thu Jan 16 16:43:32 2020
+Connected with client  179, Thu Jan 16 16:43:32 2020
+Connected with client  113, Thu Jan 16 16:43:32 2020
+Connected with client  103, Thu Jan 16 16:43:32 2020
+Connected with client  148, Thu Jan 16 16:43:32 2020
+Connected with client  157, Thu Jan 16 16:43:32 2020
+Connected with client  112, Thu Jan 16 16:43:32 2020
+Connected with client  120, Connected with client  99, Thu Jan 16 16:43:32 2020
+Connected with client  94, Thu Jan 16 16:43:32 2020
+Connected with client  116, Thu Jan 16 16:43:32 2020
+Connected with client  193, Thu Jan 16 16:43:32 2020
+Connected with client  123, Thu Jan 16 16:43:32 2020
+Connected with client  147, Thu Jan 16 16:43:32 2020
+Connected with client  139, Thu Jan 16 16:43:32 2020
+Connected with client  137, Thu Jan 16 16:43:32 2020
+Connected with client  110, Thu Jan 16 16:43:32 2020
+Connected with client  124, Thu Jan 16 16:43:32 2020
+Connected with client  125, Thu Jan 16 16:43:32 2020
+Connected with client  158, Thu Jan 16 16:43:32 2020
+Connected with client  128, Thu Jan 16 16:43:32 2020
+Connected with client  155, Thu Jan 16 16:43:32 2020
+Connected with client  166, Thu Jan 16 16:43:32 2020
+Connected with client  97, Thu Jan 16 16:43:32 2020
+Connected with client  98, Thu Jan 16 16:43:32 2020
+Connected with client  205, Thu Jan 16 16:43:32 2020
+Connected with client  165, Thu Jan 16 16:43:32 2020
+Connected with client  183, Thu Jan 16 16:43:32 2020
+Connected with client  162, Thu Jan 16 16:43:32 2020
+Connected with client  200, Thu Jan 16 16:43:32 2020
+Connected with client  195, Thu Jan 16 16:43:32 2020
+Connected with client  196, Thu Jan 16 16:43:32 2020
+Connected with client  202, Thu Jan 16 16:43:32 2020
+Connected with client  201, Thu Jan 16 16:43:32 2020
+Connected with client  168, Thu Jan 16 16:43:32 2020
+Connected with client  199, Thu Jan 16 16:43:32 2020
+Connected with client  206, Thu Jan 16 16:43:32 2020
+Connected with client  198, Thu Jan 16 16:43:32 2020
+Connected with client  207, Thu Jan 16 16:43:32 2020
+Connected with client  210, Thu Jan 16 16:43:32 2020
+Connected with client  134, Thu Jan 16 16:43:32 2020
+Connected with client  176, Thu Jan 16 16:43:32 2020
+Connected with client  177, Thu Jan 16 16:43:32 2020
+Connected with client  218, Thu Jan 16 16:43:32 2020
+Connected with client  213, Thu Jan 16 16:43:32 2020
+Connected with client  214, Thu Jan 16 16:43:32 2020
+Connected with client  250, Thu Jan 16 16:43:32 2020
+Connected with client  234, Thu Jan 16 16:43:32 2020
+Connected with client  260, Thu Jan 16 16:43:32 2020
+Connected with client  212, Thu Jan 16 16:43:32 2020
+Connected with client  219, Thu Jan 16 16:43:32 2020
+Connected with client  220, Thu Jan 16 16:43:32 2020
+Connected with client  221, Thu Jan 16 16:43:32 2020
+Connected with client  235, Thu Jan 16 16:43:32 2020
+Connected with client  270, Thu Jan 16 16:43:32 2020
+Connected with client  271, Thu Jan 16 16:43:32 2020
+Connected with client  251, Thu Jan 16 16:43:32 2020
+Connected with client  222, Thu Jan 16 16:43:32 2020
+Connected with client  269, Thu Jan 16 16:43:32 2020
+Connected with client  266, Thu Jan 16 16:43:32 2020
+Connected with client  254, Thu Jan 16 16:43:32 2020
+Connected with client  261, Thu Jan 16 16:43:32 2020
+Connected with client  255, Thu Jan 16 16:43:32 2020
+Connected with client  256, Thu Jan 16 16:43:32 2020
+Connected with client  257, Thu Jan 16 16:43:32 2020
+Connected with client  258, Thu Jan 16 16:43:32 2020
+Connected with client  223, Thu Jan 16 16:43:32 2020
+Connected with client  244, Thu Jan 16 16:43:32 2020
+Connected with client  237, Thu Jan 16 16:43:32 2020
+Connected with client  228, Thu Jan 16 16:43:32 2020
+Connected with client  249, Thu Jan 16 16:43:32 2020
+Connected with client  236, Thu Jan 16 16:43:32 2020
+Connected with client  230, Thu Jan 16 16:43:32 2020
+Connected with client  239, Thu Jan 16 16:43:32 2020
+Connected with client  226, Thu Jan 16 16:43:32 2020
+Connected with client  240, Thu Jan 16 16:43:32 2020
+Connected with client  229, Thu Jan 16 16:43:32 2020
+Connected with client  238, Thu Jan 16 16:43:32 2020
+Connected with client  291, Thu Jan 16 16:43:32 2020
+Connected with client  216, Thu Jan 16 16:43:32 2020
+Connected with client  217, Thu Jan 16 16:43:32 2020
+Connected with client  245, Thu Jan 16 16:43:32 2020
+Connected with client  231, Thu Jan 16 16:43:32 2020
+Connected with client  215, Thu Jan 16 16:43:32 2020
+Connected with client  232, Thu Jan 16 16:43:32 2020
+Connected with client  241, Thu Jan 16 16:43:32 2020
+Connected with client  242, Thu Jan 16 16:43:32 2020
+Connected with client  243, Thu Jan 16 16:43:32 2020
+Connected with client  259, Thu Jan 16 16:43:32 2020
+Connected with client  246, Thu Jan 16 16:43:32 2020
+Connected with client  267, Thu Jan 16 16:43:32 2020
+Connected with client  247, Thu Jan 16 16:43:32 2020
+Connected with client  224, Thu Jan 16 16:43:32 2020
+Connected with client  263, Thu Jan 16 16:43:32 2020
+Connected with client  248, Thu Jan 16 16:43:32 2020
+Connected with client  264, Thu Jan 16 16:43:32 2020
+Connected with client  305, Thu Jan 16 16:43:32 2020
+Connected with client  233, Thu Jan 16 16:43:32 2020
+Connected with client  292, Thu Jan 16 16:43:32 2020
+Connected with client  293, Thu Jan 16 16:43:32 2020
+Connected with client  280, Thu Jan 16 16:43:32 2020
+Connected with client  285, Thu Jan 16 16:43:32 2020
+Connected with client  286, Thu Jan 16 16:43:32 2020
+Connected with client  289, Thu Jan 16 16:43:32 2020
+Connected with client  262, Thu Jan 16 16:43:32 2020
+Connected with client  265, Thu Jan 16 16:43:32 2020
+Connected with client  284, Thu Jan 16 16:43:32 2020
+Connected with client  276, Thu Jan 16 16:43:32 2020
+Connected with client  277, Thu Jan 16 16:43:32 2020
+Connected with client  295, Thu Jan 16 16:43:32 2020
+Connected with client  302, Thu Jan 16 16:43:32 2020
+Connected with client  253, Thu Jan 16 16:43:32 2020
+Connected with client  299, Thu Jan 16 16:43:32 2020
+Connected with client  307, Thu Jan 16 16:43:32 2020
+Connected with client  278, Thu Jan 16 16:43:32 2020
+Connected with client  279, Thu Jan 16 16:43:32 2020
+Connected with client  290, Thu Jan 16 16:43:32 2020
+Connected with client  300, Thu Jan 16 16:43:32 2020
+Connected with client  281, Thu Jan 16 16:43:32 2020
+Connected with client  282, Thu Jan 16 16:43:32 2020
+Connected with client  283, Thu Jan 16 16:43:32 2020
+Connected with client  287, Thu Jan 16 16:43:32 2020
+Connected with client  316, Thu Jan 16 16:43:33 2020
+Connected with client  308, Thu Jan 16 16:43:33 2020
+Connected with client  298, Thu Jan 16 16:43:33 2020
+Connected with client  318, Thu Jan 16 16:43:33 2020
+Connected with client  310, Thu Jan 16 16:43:33 2020
+Connected with client  311, Thu Jan 16 16:43:33 2020
+Connected with client  312, Thu Jan 16 16:43:33 2020
+Connected with client  303, Thu Jan 16 16:43:33 2020
+Connected with client  304, Thu Jan 16 16:43:33 2020
+Connected with client  314, Thu Jan 16 16:43:33 2020
+Connected with client  306, Thu Jan 16 16:43:33 2020
+Connected with client  288, Thu Jan 16 16:43:33 2020
+Connected with client  317, Thu Jan 16 16:43:33 2020
+Connected with client  294, Thu Jan 16 16:43:33 2020
+Connected with client  296, Thu Jan 16 16:43:33 2020
+Connected with client  321, Thu Jan 16 16:43:33 2020
+Connected with client  320, Thu Jan 16 16:43:33 2020
+Connected with client  313, Thu Jan 16 16:43:33 2020
+Connected with client  297, Thu Jan 16 16:43:33 2020
+Connected with client  319, Thu Jan 16 16:43:33 2020
+Connected with client  322, Thu Jan 16 16:43:33 2020
+Connected with client  329, Thu Jan 16 16:43:33 2020
+Connected with client  332, Thu Jan 16 16:43:33 2020
+Connected with client  333, Thu Jan 16 16:43:33 2020
+Connected with client  336, Thu Jan 16 16:43:33 2020
+Connected with client  337, Thu Jan 16 16:43:33 2020
+Connected with client  340, Thu Jan 16 16:43:33 2020
+Connected with client  326, Thu Jan 16 16:43:33 2020
+Connected with client  343, Thu Jan 16 16:43:33 2020
+Connected with client  301, Thu Jan 16 16:43:33 2020
+Connected with client  315, Thu Jan 16 16:43:33 2020
+Connected with client  309, Thu Jan 16 16:43:33 2020
+Connected with client  323, Thu Jan 16 16:43:33 2020
+Connected with client  324, Thu Jan 16 16:43:33 2020
+Connected with client  345, Thu Jan 16 16:43:33 2020
+Connected with client  342, Thu Jan 16 16:43:33 2020
+Connected with client  339, Thu Jan 16 16:43:33 2020
+Connected with client  344, Thu Jan 16 16:43:33 2020
+Connected with client  334, Thu Jan 16 16:43:33 2020
+Connected with client  350, Thu Jan 16 16:43:33 2020
+Connected with client  346, Thu Jan 16 16:43:33 2020
+Connected with client  348, Thu Jan 16 16:43:33 2020
+Connected with client  349, Thu Jan 16 16:43:33 2020
+Connected with client  330, Thu Jan 16 16:43:33 2020
+Connected with client  347, Thu Jan 16 16:43:33 2020
+Connected with client  327, Thu Jan 16 16:43:33 2020
+Connected with client  335, Thu Jan 16 16:43:33 2020
+Connected with client  331, Thu Jan 16 16:43:33 2020
+Connected with client  341, Thu Jan 16 16:43:33 2020
+Connected with client  338, Thu Jan 16 16:43:33 2020
+Connected with client  351, Thu Jan 16 16:43:33 2020
+Connected with client  352, Thu Jan 16 16:43:33 2020
+Connected with client  353, Thu Jan 16 16:43:33 2020
+Connected with client  370, Thu Jan 16 16:43:33 2020
+Connected with client  359, Thu Jan 16 16:43:33 2020
+Connected with client  357, Thu Jan 16 16:43:33 2020
+Connected with client  368, Thu Jan 16 16:43:33 2020
+Connected with client  376, Thu Jan 16 16:43:33 2020
+Connected with client  360, Thu Jan 16 16:43:33 2020
+Connected with client  356, Thu Jan 16 16:43:33 2020
+Connected with client  358, Thu Jan 16 16:43:33 2020
+Connected with client  364, Thu Jan 16 16:43:33 2020
+Connected with client  369, Thu Jan 16 16:43:33 2020
+Connected with client  399, Thu Jan 16 16:43:33 2020
+Connected with client  354, Thu Jan 16 16:43:33 2020
+Connected with client  375, Thu Jan 16 16:43:33 2020
+Connected with client  379, Thu Jan 16 16:43:33 2020
+Connected with client  378, Thu Jan 16 16:43:33 2020
+Connected with client  381, Thu Jan 16 16:43:33 2020
+Connected with client  400, Thu Jan 16 16:43:33 2020
+Connected with client  386, Thu Jan 16 16:43:33 2020
+Connected with client  361, Thu Jan 16 16:43:33 2020
+Connected with client  371, Thu Jan 16 16:43:33 2020
+Connected with client  403, Thu Jan 16 16:43:33 2020
+Connected with client  388, Thu Jan 16 16:43:33 2020
+Connected with client  398, Thu Jan 16 16:43:33 2020
+Connected with client  365, Thu Jan 16 16:43:33 2020
+Connected with client  377, Thu Jan 16 16:43:33 2020
+Connected with client  404, Thu Jan 16 16:43:33 2020
+Connected with client  397, Thu Jan 16 16:43:33 2020
+Connected with client  380, Thu Jan 16 16:43:33 2020
+Connected with client  385, Thu Jan 16 16:43:33 2020
+Connected with client  402, Thu Jan 16 16:43:33 2020
+Connected with client  417, Thu Jan 16 16:43:33 2020
+Connected with client  387, Thu Jan 16 16:43:33 2020
+Connected with client  408, Thu Jan 16 16:43:33 2020
+Connected with client  419, Thu Jan 16 16:43:33 2020
+Connected with client  401, Thu Jan 16 16:43:33 2020
+Connected with client  420, Thu Jan 16 16:43:33 2020
+Connected with client  409, Thu Jan 16 16:43:33 2020
+Connected with client  425, Thu Jan 16 16:43:33 2020
+Connected with client  411, Thu Jan 16 16:43:33 2020
+Connected with client  405, Thu Jan 16 16:43:33 2020
+Connected with client  414, Thu Jan 16 16:43:33 2020
+Connected with client  426, Thu Jan 16 16:43:33 2020
+Connected with client  410, Thu Jan 16 16:43:33 2020
+Connected with client  421, Thu Jan 16 16:43:33 2020
+Connected with client  422, Thu Jan 16 16:43:33 2020
+Connected with client  423, Thu Jan 16 16:43:33 2020
+Connected with client  424, Thu Jan 16 16:43:33 2020
+Connected with client  390, Thu Jan 16 16:43:33 2020
+Connected with client  412, Thu Jan 16 16:43:33 2020
+Connected with client  427, Thu Jan 16 16:43:33 2020
+Connected with client  428, Thu Jan 16 16:43:33 2020
+Connected with client  431, Thu Jan 16 16:43:33 2020
+Connected with client  433, Thu Jan 16 16:43:33 2020
+Connected with client  454, Thu Jan 16 16:43:33 2020
+Connected with client  429, Thu Jan 16 16:43:33 2020
+Connected with client  415, Thu Jan 16 16:43:33 2020
+Connected with client  430, Thu Jan 16 16:43:33 2020
+Connected with client  416, Thu Jan 16 16:43:33 2020
+Connected with client  453, Thu Jan 16 16:43:33 2020
+Connected with client  406, Thu Jan 16 16:43:33 2020
+Connected with client  436, Thu Jan 16 16:43:33 2020
+Connected with client  407, Thu Jan 16 16:43:33 2020
+Connected with client  389, Thu Jan 16 16:43:33 2020
+Connected with client  437, Thu Jan 16 16:43:33 2020
+Connected with client  434, Thu Jan 16 16:43:33 2020
+Connected with client  435, Thu Jan 16 16:43:33 2020
+Connected with client  418, Thu Jan 16 16:43:33 2020
+Connected with client  438, Thu Jan 16 16:43:33 2020
+Connected with client  439, Thu Jan 16 16:43:33 2020
+Connected with client  446, Thu Jan 16 16:43:33 2020
+Connected with client  464, Thu Jan 16 16:43:33 2020
+Connected with client  456, Thu Jan 16 16:43:33 2020
+Connected with client  448, Thu Jan 16 16:43:33 2020
+Connected with client  447, Thu Jan 16 16:43:33 2020
+Connected with client  449, Thu Jan 16 16:43:33 2020
+Connected with client  450, Thu Jan 16 16:43:33 2020
+Connected with client  457, Thu Jan 16 16:43:33 2020
+Connected with client  458, Thu Jan 16 16:43:33 2020
+Connected with client  459, Thu Jan 16 16:43:33 2020
+Connected with client  460, Thu Jan 16 16:43:33 2020
+Connected with client  461, Thu Jan 16 16:43:33 2020
+Connected with client  451, Thu Jan 16 16:43:33 2020
+Connected with client  452, Thu Jan 16 16:43:33 2020
+Connected with client  441, Thu Jan 16 16:43:33 2020
+Connected with client  442, Thu Jan 16 16:43:33 2020
+Connected with client  444, Thu Jan 16 16:43:33 2020
+Connected with client  443, Thu Jan 16 16:43:33 2020
+Connected with client  413, Thu Jan 16 16:43:33 2020
+Connected with client  432, Thu Jan 16 16:43:33 2020
+Connected with client  440, Thu Jan 16 16:43:33 2020
+Connected with client  445, Thu Jan 16 16:43:33 2020
+Connected with client  462, Thu Jan 16 16:43:33 2020
+Connected with client  463, Thu Jan 16 16:43:33 2020
+Connected with client  474, Thu Jan 16 16:43:33 2020
+Connected with client  466, Thu Jan 16 16:43:33 2020
+Connected with client  455, Thu Jan 16 16:43:33 2020
+Connected with client  465, Thu Jan 16 16:43:33 2020
+Connected with client  470, Thu Jan 16 16:43:33 2020
+Connected with client  467, Thu Jan 16 16:43:33 2020
+Connected with client  469, Thu Jan 16 16:43:33 2020
+Connected with client  499, Thu Jan 16 16:43:34 2020
+Connected with client  491, Thu Jan 16 16:43:34 2020
+Connected with client  497, Thu Jan 16 16:43:34 2020
+Connected with client  532, Thu Jan 16 16:43:34 2020
+Connected with client  479, Thu Jan 16 16:43:34 2020
+Connected with client  492, Thu Jan 16 16:43:34 2020
+Connected with client  493, Thu Jan 16 16:43:34 2020
+Connected with client  494, Thu Jan 16 16:43:34 2020
+Connected with client  495, Thu Jan 16 16:43:34 2020
+Connected with client  500, Thu Jan 16 16:43:34 2020
+Connected with client  498, Thu Jan 16 16:43:34 2020
+Connected with client  510, Thu Jan 16 16:43:34 2020
+Connected with client  481, Thu Jan 16 16:43:34 2020
+Connected with client  511, Thu Jan 16 16:43:34 2020
+Connected with client  482, Thu Jan 16 16:43:34 2020
+Connected with client  480, Thu Jan 16 16:43:34 2020
+Connected with client  484, Thu Jan 16 16:43:34 2020
+Connected with client  513, Thu Jan 16 16:43:34 2020
+Connected with client  536, Thu Jan 16 16:43:34 2020
+Connected with client  545, Thu Jan 16 16:43:34 2020
+Connected with client  546, Thu Jan 16 16:43:34 2020
+Connected with client  509, Thu Jan 16 16:43:34 2020
+Connected with client  483, Thu Jan 16 16:43:34 2020
+Connected with client  552, Thu Jan 16 16:43:34 2020
+Connected with client  489, Thu Jan 16 16:43:34 2020
+Connected with client  543, Thu Jan 16 16:43:34 2020
+Connected with client  520, Thu Jan 16 16:43:34 2020
+Connected with client  522, Thu Jan 16 16:43:34 2020
+Connected with client  553, Thu Jan 16 16:43:34 2020
+Connected with client  524, Thu Jan 16 16:43:34 2020
+Connected with client  577, Thu Jan 16 16:43:34 2020
+Connected with client  534, Thu Jan 16 16:43:34 2020
+Connected with client  555, Thu Jan 16 16:43:34 2020
+Connected with client  535, Thu Jan 16 16:43:34 2020
+Connected with client  530, Thu Jan 16 16:43:34 2020
+Connected with client  528, Thu Jan 16 16:43:34 2020
+Connected with client  548, Thu Jan 16 16:43:34 2020
+Connected with client  542, Thu Jan 16 16:43:34 2020
+Connected with client  514, Thu Jan 16 16:43:34 2020
+Connected with client  518, Thu Jan 16 16:43:34 2020
+Connected with client  516, Thu Jan 16 16:43:34 2020
+Connected with client  517, Thu Jan 16 16:43:34 2020
+Connected with client  515, Thu Jan 16 16:43:34 2020
+Connected with client  537, Thu Jan 16 16:43:34 2020
+Connected with client  541, Thu Jan 16 16:43:34 2020
+Connected with client  519, Thu Jan 16 16:43:34 2020
+Connected with client  556, Thu Jan 16 16:43:34 2020
+Connected with client  557, Thu Jan 16 16:43:34 2020
+Connected with client  551, Thu Jan 16 16:43:34 2020
+Connected with client  550, Thu Jan 16 16:43:34 2020
+Connected with client  568, Thu Jan 16 16:43:34 2020
+Connected with client  569, Thu Jan 16 16:43:34 2020
+Connected with client  572, Thu Jan 16 16:43:34 2020
+Connected with client  579, Thu Jan 16 16:43:34 2020
+Connected with client  575, Thu Jan 16 16:43:34 2020
+Connected with client  523, Thu Jan 16 16:43:34 2020
+Connected with client  538, Thu Jan 16 16:43:34 2020
+Connected with client  521, Thu Jan 16 16:43:34 2020
+Connected with client  566, Thu Jan 16 16:43:34 2020
+Connected with client  559, Thu Jan 16 16:43:34 2020
+Connected with client  567, Thu Jan 16 16:43:34 2020
+Connected with client  576, Thu Jan 16 16:43:34 2020
+Connected with client  560, Thu Jan 16 16:43:34 2020
+Connected with client  563, Thu Jan 16 16:43:34 2020
+Connected with client  561, Thu Jan 16 16:43:34 2020
+Connected with client  562, Thu Jan 16 16:43:34 2020
+Connected with client  564, Thu Jan 16 16:43:34 2020
+Connected with client  539, Thu Jan 16 16:43:34 2020
+Connected with client  526, Thu Jan 16 16:43:34 2020
+Connected with client  527, Thu Jan 16 16:43:34 2020
+Connected with client  533, Thu Jan 16 16:43:34 2020
+Connected with client  549, Thu Jan 16 16:43:34 2020
+Connected with client  531, Thu Jan 16 16:43:34 2020
+Connected with client  590, Thu Jan 16 16:43:34 2020
+Connected with client  591, Thu Jan 16 16:43:34 2020
+Connected with client  565, Thu Jan 16 16:43:34 2020
+Connected with client  580, Thu Jan 16 16:43:34 2020
+Connected with client  581, Thu Jan 16 16:43:34 2020
+Connected with client  583, Thu Jan 16 16:43:34 2020
+Connected with client  592, Thu Jan 16 16:43:34 2020
+Connected with client  585, Thu Jan 16 16:43:34 2020
+Connected with client  584, Thu Jan 16 16:43:34 2020
+Connected with client  588, Thu Jan 16 16:43:34 2020
+Created socket, Thu Jan 16 16:43:34 2020
+Socket address info is defined., Thu Jan 16 16:43:34 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:43:34 2020
+Connected with client  587, Thu Jan 16 16:43:34 2020
+Connected with client  586, Thu Jan 16 16:43:34 2020
+Connected with client  589, Thu Jan 16 16:43:34 2020
+Connected with client  594, Thu Jan 16 16:43:34 2020
+Connected with client  606, Thu Jan 16 16:43:34 2020
+Connected with client  602, Thu Jan 16 16:43:34 2020
+Connected with client  603, Thu Jan 16 16:43:34 2020
+Connected with client  608, Thu Jan 16 16:43:34 2020
+Connected with client  593, Thu Jan 16 16:43:34 2020
+Connected with client  595, Thu Jan 16 16:43:34 2020
+Connected with client  605, Thu Jan 16 16:43:34 2020
+Connected with client  610, Thu Jan 16 16:43:35 2020
+Connected with client  640, Thu Jan 16 16:43:35 2020
+Connected with client  619, Thu Jan 16 16:43:35 2020
+Connected with client  612, Thu Jan 16 16:43:35 2020
+Connected with client  620, Thu Jan 16 16:43:35 2020
+Connected with client  630, Thu Jan 16 16:43:35 2020
+Connected with client  621, Thu Jan 16 16:43:35 2020
+Connected with client  613, Thu Jan 16 16:43:35 2020
+Connected with client  627, Thu Jan 16 16:43:35 2020
+Connected with client  614, Thu Jan 16 16:43:35 2020
+Connected with client  633, Thu Jan 16 16:43:35 2020
+Connected with client  622, Thu Jan 16 16:43:35 2020
+Connected with client  628, Thu Jan 16 16:43:35 2020
+Connected with client  597, Thu Jan 16 16:43:35 2020
+Connected with client  615, Thu Jan 16 16:43:35 2020
+Connected with client  623, Thu Jan 16 16:43:35 2020
+Connected with client  600, Thu Jan 16 16:43:35 2020
+Connected with client  629, Thu Jan 16 16:43:35 2020
+Connected with client  604, Thu Jan 16 16:43:35 2020
+Connected with client  607, Thu Jan 16 16:43:35 2020
+Connected with client  616, Thu Jan 16 16:43:35 2020
+Connected with client  625, Thu Jan 16 16:43:35 2020
+Connected with client  624, Thu Jan 16 16:43:35 2020
+Connected with client  626, Thu Jan 16 16:43:35 2020
+Connected with client  598, Thu Jan 16 16:43:35 2020
+Connected with client  636, Thu Jan 16 16:43:35 2020
+Connected with client  617, Thu Jan 16 16:43:35 2020
+Connected with client  618, Thu Jan 16 16:43:35 2020
+Connected with client  609, Thu Jan 16 16:43:35 2020
+Connected with client  596, Thu Jan 16 16:43:35 2020
+Connected with client  638, Thu Jan 16 16:43:35 2020
+Connected with client  599, Thu Jan 16 16:43:35 2020
+Connected with client  648, Thu Jan 16 16:43:35 2020
+Connected with client  639, Thu Jan 16 16:43:35 2020
+Connected with client  652, Thu Jan 16 16:43:35 2020
+Connected with client  649, Thu Jan 16 16:43:35 2020
+Connected with client  642, Thu Jan 16 16:43:35 2020
+Connected with client  650, Thu Jan 16 16:43:35 2020
+Connected with client  668, Thu Jan 16 16:43:35 2020
+Connection lost with server, Thu Jan 16 16:43:35 2020
+Created socket, Thu Jan 16 16:45:35 2020
+Socket address info is defined., Thu Jan 16 16:45:35 2020
+Socket is binded., Thu Jan 16 16:45:35 2020
+Server started listening on port  4541, Thu Jan 16 16:45:35 2020
+Created socket, Thu Jan 16 16:49:37 2020
+Socket address info is defined., Thu Jan 16 16:49:37 2020
+Socket is binded., Thu Jan 16 16:49:37 2020
+Server started listening on port  4541, Thu Jan 16 16:49:37 2020
+Created socket, Thu Jan 16 16:49:40 2020
+Socket address info is defined., Thu Jan 16 16:49:40 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:49:40 2020
+Connected with client  1, Thu Jan 16 16:49:40 2020
+Created socket, Thu Jan 16 16:49:47 2020
+Socket address info is defined., Thu Jan 16 16:49:47 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:49:47 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:49:54 2020
+Created socket, Thu Jan 16 16:52:00 2020
+Socket address info is defined., Thu Jan 16 16:52:00 2020
+Socket is binded., Thu Jan 16 16:52:00 2020
+Server started listening on port  4541, Thu Jan 16 16:52:00 2020
+Created socket, Thu Jan 16 16:52:03 2020
+Socket address info is defined., Thu Jan 16 16:52:03 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:52:03 2020
+Connected with client  1, Thu Jan 16 16:52:03 2020
+, Thu Jan 16 16:52:04 2020
+, Thu Jan 16 16:52:10 2020
+, Thu Jan 16 16:52:26 2020
+Created socket, Thu Jan 16 16:52:38 2020
+Socket address info is defined., Thu Jan 16 16:52:38 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:52:38 2020
+Connected with client  2, Thu Jan 16 16:52:38 2020
+Client 1 is at socket 4., Thu Jan 16 16:52:43 2020
+Client 1 is at socket 4., Thu Jan 16 16:52:43 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:52:51 2020
+Created socket, Thu Jan 16 16:53:01 2020
+Socket address info is defined., Thu Jan 16 16:53:01 2020
+Socket is binded., Thu Jan 16 16:53:01 2020
+Server started listening on port  4541, Thu Jan 16 16:53:01 2020
+Created socket, Thu Jan 16 16:53:03 2020
+Socket address info is defined., Thu Jan 16 16:53:03 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:53:03 2020
+Connected with client  1, Thu Jan 16 16:53:03 2020
+Created socket, Thu Jan 16 16:53:32 2020
+Socket address info is defined., Thu Jan 16 16:53:32 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:53:32 2020
+, Thu Jan 16 16:53:40 2020
+Client 2 is at socket 5., Thu Jan 16 16:53:40 2020
+ sa, sent from client 1 to client 2, Thu Jan 16 16:53:45 2020
+Created socket, Thu Jan 16 16:55:40 2020
+Socket address info is defined., Thu Jan 16 16:55:40 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:55:40 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:55:45 2020
+Created socket, Thu Jan 16 16:55:49 2020
+Socket address info is defined., Thu Jan 16 16:55:49 2020
+Socket is binded., Thu Jan 16 16:55:49 2020
+Server started listening on port  4541, Thu Jan 16 16:55:49 2020
+Created socket, Thu Jan 16 16:55:51 2020
+Socket address info is defined., Thu Jan 16 16:55:51 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:55:51 2020
+Connection lost with server, Thu Jan 16 16:55:51 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:56:00 2020
+Created socket, Thu Jan 16 16:56:39 2020
+Socket address info is defined., Thu Jan 16 16:56:39 2020
+Created socket, Thu Jan 16 16:56:42 2020
+Socket address info is defined., Thu Jan 16 16:56:42 2020
+Socket is binded., Thu Jan 16 16:56:42 2020
+Server started listening on port  4542, Thu Jan 16 16:56:42 2020
+Created socket, Thu Jan 16 16:56:46 2020
+Socket address info is defined., Thu Jan 16 16:56:46 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:56:46 2020
+Connection lost with server, Thu Jan 16 16:56:46 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 16:56:49 2020
+Created socket, Thu Jan 16 16:58:32 2020
+Socket address info is defined., Thu Jan 16 16:58:32 2020
+Socket is binded., Thu Jan 16 16:58:32 2020
+Server started listening on port  4541, Thu Jan 16 16:58:32 2020
+Created socket, Thu Jan 16 16:58:37 2020
+Socket address info is defined., Thu Jan 16 16:58:37 2020
+Connection established between server and client at socket 3, Thu Jan 16 16:58:37 2020
+Connection lost with server, Thu Jan 16 16:58:37 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:04:39 2020
+Created socket, Thu Jan 16 17:04:42 2020
+Socket address info is defined., Thu Jan 16 17:04:42 2020
+Socket is binded., Thu Jan 16 17:04:42 2020
+Server started listening on port  4541, Thu Jan 16 17:04:42 2020
+Created socket, Thu Jan 16 17:04:44 2020
+Socket address info is defined., Thu Jan 16 17:04:44 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:04:44 2020
+Connection lost with server, Thu Jan 16 17:04:44 2020
+Created socket, Thu Jan 16 17:04:59 2020
+Socket address info is defined., Thu Jan 16 17:04:59 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:04:59 2020
+Connection lost with server, Thu Jan 16 17:04:59 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:05:03 2020
+Created socket, Thu Jan 16 17:05:06 2020
+Socket address info is defined., Thu Jan 16 17:05:06 2020
+Created socket, Thu Jan 16 17:05:08 2020
+Socket address info is defined., Thu Jan 16 17:05:08 2020
+Socket is binded., Thu Jan 16 17:05:08 2020
+Server started listening on port  4544, Thu Jan 16 17:05:08 2020
+Created socket, Thu Jan 16 17:05:14 2020
+Socket address info is defined., Thu Jan 16 17:05:14 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:05:14 2020
+Connection lost with server, Thu Jan 16 17:05:14 2020
+Created socket, Thu Jan 16 17:05:36 2020
+Socket address info is defined., Thu Jan 16 17:05:36 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:05:36 2020
+Connected with client  2, Thu Jan 16 17:05:36 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:05:53 2020
+Connection lost with server, Thu Jan 16 17:05:53 2020
+Created socket, Thu Jan 16 17:07:11 2020
+Socket address info is defined., Thu Jan 16 17:07:11 2020
+Socket is binded., Thu Jan 16 17:07:11 2020
+Server started listening on port  4544, Thu Jan 16 17:07:11 2020
+Created socket, Thu Jan 16 17:07:14 2020
+Socket address info is defined., Thu Jan 16 17:07:14 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:07:14 2020
+Connected with client  1, Thu Jan 16 17:07:14 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:07:20 2020
+Created socket, Thu Jan 16 17:08:34 2020
+Socket address info is defined., Thu Jan 16 17:08:34 2020
+Socket is binded., Thu Jan 16 17:08:34 2020
+Server started listening on port  4544, Thu Jan 16 17:08:34 2020
+Created socket, Thu Jan 16 17:08:38 2020
+Socket address info is defined., Thu Jan 16 17:08:38 2020
+Connection established between server and client at socket 3, Thu Jan 16 17:08:38 2020
+Connected with client  1, Thu Jan 16 17:08:38 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:08:39 2020
+Socket: 3 is closed, Closing application..., Thu Jan 16 17:08:42 2020

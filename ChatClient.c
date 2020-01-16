@@ -47,10 +47,18 @@ void quitHandler(int client)
 }
 int main(int argc, char **argv)
 {
+	signal(SIGINT,quitHandler); //closing socket and quit.
+
 	struct sockaddr_in serverAddr;
 	clientSocket = createIPv4Socket();
 	serverAddr = defineSocket(atoi(argv[1]));
 	connectToServer(clientSocket,serverAddr);
+	char *username = argv[2];
+	char *password = argv[3];
+	char userInfo[1024];
+	sprintf(userInfo, "%s %s",username,password);
+	send(clientSocket,userInfo,1024,0);
+
 
 	pthread_t thread;
 	pthread_create(&thread, NULL, receiveMessages, (void *) &clientSocket );
@@ -81,5 +89,4 @@ int main(int argc, char **argv)
 
 		}
 	}
-    signal(SIGINT,quitHandler); //closing socket and quit.
 }

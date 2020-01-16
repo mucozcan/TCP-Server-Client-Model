@@ -54,13 +54,14 @@ int main(int argc, char **argv)
     
     while (keepRunning)
     {
-        //assigning new socket descriptor to client's sockID
+    
         Client[clientCount].sockID = acceptConnection(serverSocket,&Client[clientCount],clientCount);
         Client[clientCount].index = clientCount;
 
         //creating thread for client
         pthread_create(&thread[clientCount], NULL, sendAndReceive, (void *)&Client[clientCount]);
         clientCount++;
+    
     }
     signal(SIGINT,quitHandler); //closing socket and quit.
 

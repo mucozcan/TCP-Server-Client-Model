@@ -15,6 +15,7 @@
 int clientCount = 0;
 FILE *errorFile;
 FILE *logFile;
+FILE *login;
 
 struct client
 {
@@ -39,6 +40,7 @@ void connectToServer(int clientSocket, struct sockaddr_in server);
 const char *getCurrentTime();
 void logErrors(char *ErrorString, int errNo);
 void logOperations(char *LogString);
+int checkUserInfo(int clientSocket);
 
 const char *getCurrentTime() //returns current time and date.
 {
@@ -67,49 +69,56 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
     struct client *clientDetail = (struct client *)ClientDetail; //assigning param to a client struct.
     int index = clientDetail->index;
     int clientSocket = clientDetail->sockID;
+    int validUser = checkUserInfo(clientSocket);
 
-    printf("Client %d connected.\n", index + 1);
-    //logging
-    char logString[] = "Connected with client ";
-    sprintf(logString, "%s %d", logString, index + 1);
-    logOperations(logString);
-
-    while (1)
+        //assigning new socket descriptor to client's sockID
+    if(validUser)
     {
-        char data[MAX_DATA];
-        int read = recv(clientSocket, data, MAX_DATA, 0); //Read command from client(SEND,LIST).
-        data[read] = '\0';                                // '\0' is used for ending string.
+        printf("Client %d connected.\n", index + 1);
+        //logging
+        char logString[] = "Connected with client ";
+        sprintf(logString, "%s %d", logString, index + 1);
+        logOperations(logString);
 
-        char output[MAX_DATA];
-        //if the data is "LIST", server sends list of other clients.
-        if (strcmp(data, "LIST") == 0)
+        while (1)
         {
+            char data[MAX_DATA];
+            int read = recv(clientSocket, data, MAX_DATA, 0); //Read command from client(SEND,LIST).
+            data[read] = '\0';                                // '\0' is used for ending string.
 
-            for (int i = 0; i < clientCount; i++)
+            char output[MAX_DATA];
+            //if the data is "LIST", server sends list of other clients.
+            if (strcmp(data, "LIST") == 0)
             {
-                if (i != index)
-                    snprintf(output, 1024, "Client %d is at socket %d.", i + 1, Client[i].sockID);
-                logOperations(output);
+
+                for (int i = 0; i < clientCount; i++)
+                {
+                    if (i != index)
+                        snprintf(output, 1024, "Client %d is at socket %d.", i + 1, Client[i].sockID);
+                    logOperations(output);
+                }
+
+                send(clientSocket, output, MAX_DATA, 0);
+                continue;
             }
+            //if the data is "SEND", server sends message to client(ID)
+            if (strcmp(data, "SEND") == 0)
+            {
+                read = recv(clientSocket, data, MAX_DATA, 0); //read ID of other client
+                data[read] = '\0';
 
-            send(clientSocket, output, MAX_DATA, 0);
-            continue;
-        }
-        //if the data is "SEND", server sends message to client(ID)
-        if (strcmp(data, "SEND") == 0)
-        {
-            read = recv(clientSocket, data, MAX_DATA, 0); //read ID of other client
-            data[read] = '\0';
+                int id = atoi(data) - 1;
 
-            int id = atoi(data) - 1;
-
-            read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
-            data[read] = '\0';
-            send(Client[id].sockID, data, MAX_DATA, 0); //send message to client(ID).
-            sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
-            logOperations(data);
+                read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
+                data[read] = '\0';
+                send(Client[id].sockID, data, MAX_DATA, 0); //send message to client(ID).
+                sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
+                logOperations(data);
+            }
         }
     }
+    
+
 
     return NULL;
 }
@@ -122,8 +131,8 @@ void *receiveMessages(void *sockID)
     {
         char data[MAX_DATA];
         int read = recv(clientSocket, data, MAX_DATA, 0);
-        if(read == 0)
-        {   
+        if (read == 0)
+        {
             printf("Connection lost with server.\n");
             logOperations("Connection lost with server");
             close(clientSocket);
@@ -196,6 +205,8 @@ void listenConnections(int serverSocket, int backlog, int port)
 
 int acceptConnection(int server, struct client *client, int clientCount)
 {
+    
+    
     int connectionSocket = accept(server, (struct sockaddr *)&client[clientCount].clientAddr, &client[clientCount].len); //accept an incoming connection on a listening socket.
     if (connectionSocket == ERROR)
     {
@@ -204,6 +215,7 @@ int acceptConnection(int server, struct client *client, int clientCount)
     }
 
     return connectionSocket;
+    
 }
 
 void connectToServer(int clientSocket, struct sockaddr_in server)
@@ -219,6 +231,47 @@ void connectToServer(int clientSocket, struct sockaddr_in server)
     char logString[] = "Connection established between server and client at socket";
     sprintf(logString, "%s %d", logString, clientSocket);
     logOperations(logString);
+}
+
+int checkUserInfo(int clientSocket) //checks if user is defined in database.
+{
+    int validUser = 0;
+    char userInfo[MAX_DATA];
+    recv(clientSocket, userInfo, MAX_DATA, 0); //receive user info(ID,password) from client.
+
+    char username[512], password[512];
+    //spliting userInfo for comparing ID and password.
+    char *usr = strtok(userInfo, " ");
+    char *pswrd = strtok(NULL, " ");
+    printf("\nClient Username: %s\n", usr);
+    printf("\nClient Password: %s\n", pswrd);
+
+    if ((login = fopen("login.txt", "r")) == NULL) //opens database.
+    {
+        printf("Error! opening file");
+        // Program exits if file pointer returns NULL.
+        exit(1);
+    }
+
+    
+   fscanf(login, "%s %s", username, password); //scans txt file 
+
+
+    if (strcmp(usr, username) == 0 && strcmp(pswrd, password) == 0) //compares received info with user database.
+    {
+        validUser = 1;
+        char info[] = "\nWelcome to TCP Chat App\n";
+        send(clientSocket,info,MAX_DATA,0);
+    }
+    else
+    {
+        validUser = 0;
+        printf("\nInvalid username or password\n");
+        char info[] = "\nInvalid username or password.\n";
+        send(clientSocket,info,MAX_DATA,0);
+        close(clientSocket);
+    }
+    return validUser;
 }
 
 #endif
