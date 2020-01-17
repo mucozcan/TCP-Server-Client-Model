@@ -97,10 +97,15 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
             int offset = 0;
             for (int i = 0; i < clientCount; i++)
             {   
-                printf("clientCount:infor %d",clientCount);
                 if (i != index)
                     offset += snprintf(output + offset, 1024, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
                 logOperations(output);
+            }
+            
+            for(int i = 0; (i < 100 && output[i] != '\0'); i++) //Decryption the message.
+            {
+                output[i] = output[i] + 3; //the key for encryption is 3 that is subtracted to ASCII value
+
             }
 
             send(clientSocket, output, MAX_DATA, 0);
@@ -111,11 +116,11 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
         {
             read = recv(clientSocket, data, MAX_DATA, 0); //read ID of other client
             data[read] = '\0';
-
             int id = atoi(data) - 1;
 
             read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
             data[read] = '\0';
+            printf("\nDATA from socket %d to socket %d: %s\n",clientSocket,Client[id].sockID,data); //printing encyrpted message.
             send(Client[id].sockID, data, MAX_DATA, 0); //send message to client(ID).
             sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
             logOperations(data);
@@ -141,7 +146,17 @@ void *receiveMessages(void *sockID)
             exit(1);
         }
         data[read] = '\0';
+        
+        for(int i = 0; (i < 100 && data[i] != '\0'); i++) //Decryption the message.
+        {
+            data[i] = data[i] - 3; //the key for encryption is 3 that is subtracted to ASCII value
+
+        }
         printf("%s\n", data);
+
+        
+        
+    
     }
 }
 

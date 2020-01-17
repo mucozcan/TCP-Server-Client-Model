@@ -14,7 +14,9 @@ Usage: ./ChatServer [The port number that you want]
 		*Send <MESSAGE> to Client<ID>.
 		>EXIT
 		*Disconnected to server and exit program.
+Client can't see directly which is the communication port.To connect to the com. port, client need to be verified from server's authentication port(given as argument to the program) first.
 Client does all receive functions in multithread function receiveMessages that defined in Chat.h
+Clients send them encrypted messages so server can't see the content of a message.
 
 */
 
@@ -59,9 +61,9 @@ int main(int argc, char **argv)
 	char *password = argv[3];
 	char userInfo[1024];
 	char serverPortNum[5]; //com port
-	sprintf(userInfo, "%s %s",username,password);
-	send(authSocket,userInfo,1024,0);
-	printf("\nReceiving..\n");
+	sprintf(userInfo, "%s %s",username,password); //concatenating username and password.
+	send(authSocket,userInfo,1024,0); //send ID and password to authentication server.
+
 	int receivedPort = recv(authSocket,serverPortNum,1024,0); //if user is valid server sends port number for communication.
 	int serverPort = atoi(serverPortNum);
 	if(serverPort == 0){
@@ -101,7 +103,12 @@ int main(int argc, char **argv)
 			scanf("%s",input);
 			send(clientSocket,input,1024,0); //send ID of other client to server for communicating.
 			
-			scanf("%[^\n]s",input);	
+			scanf("%[^\n]s",input);
+		
+			for(int i = 0; (i<MAX_DATA && input[i]!='\0'); i++) //encryption the message(Caesar Cypher Algorithm)
+			{
+				input[i] = input[i] + 3; //the key for encryption is 3 that is added to ASCII value
+			}	
 			send(clientSocket,input,1024,0); //send message to server.
 
 		}

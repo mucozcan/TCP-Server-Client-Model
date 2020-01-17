@@ -8,7 +8,10 @@ References: https://beej.us/guide/bgnet/html//index.html
 Usage: ./ChatServer [The port number that you want]
 
         in another terminal: ./ChatClient [Port number that you defined.] [username] [password]
+
+Client can't see directly which is the communication port.To connect to the com. port, client need to be verified from server's authentication port(given as argument to the program) first.
 Server does all send and receive functions in multithread function sendAndReceive that defined in Chat.h
+Clients send them encrypted messages so server can't see the content of a message.
 */
 
 #include <stdio.h>
