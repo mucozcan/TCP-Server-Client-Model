@@ -7,7 +7,7 @@ References: https://beej.us/guide/bgnet/html//index.html
 
 Usage: ./ChatServer [The port number that you want]
 
-        in another terminal: ./ChatClient [Port number that you defined.]
+        in another terminal: ./ChatClient [Port number that you defined.] [username] [password]
 		>LIST
 		*List of all connected clients.
 		>SEND <ID> <MESSAGE>
@@ -34,6 +34,7 @@ Client does all receive functions in multithread function receiveMessages that d
 
 static volatile int keepRunning = 1;
 static int clientSocket;
+static int authSocket;
 
 void quitHandler(int client)
 {
@@ -50,14 +51,29 @@ int main(int argc, char **argv)
 	signal(SIGINT,quitHandler); //closing socket and quit.
 
 	struct sockaddr_in serverAddr;
-	clientSocket = createIPv4Socket();
-	serverAddr = defineSocket(atoi(argv[1]));
-	connectToServer(clientSocket,serverAddr);
+	struct sockaddr_in authAddr;
+	authSocket = createIPv4Socket();
+	authAddr = defineSocket(atoi(argv[1]));
+	connectToServer(authSocket,authAddr);
 	char *username = argv[2];
 	char *password = argv[3];
 	char userInfo[1024];
+	char serverPortNum[5]; //com port
 	sprintf(userInfo, "%s %s",username,password);
-	send(clientSocket,userInfo,1024,0);
+	send(authSocket,userInfo,1024,0);
+	printf("\nReceiving..\n");
+	int receivedPort = recv(authSocket,serverPortNum,1024,0);
+
+	if(receivedPort == 0 || receivedPort == -1){
+		printf("\nYou are not a valid user\n");
+	}
+	close(authSocket);
+	authSocket = -1;
+	int serverPort = atoi(serverPortNum);
+	printf("\nServer port: %d\n",serverPort);
+	clientSocket = createIPv4Socket();
+	serverAddr = defineSocket(serverPort);
+	connectToServer(clientSocket,serverAddr);
 
 
 	pthread_t thread;
