@@ -12,13 +12,13 @@
 #define MAX_DATA 1024
 #define MAX_CLIENT 1024
 #define MAX_THREAD 1024
+#define COM_PORT  5880 //constant communication port for authorized users.
 
 int clientCount = 0;
-int comPort = 5880; //constant communication port for authorized users.
 
 FILE *errorFile;
 FILE *logFile;
-FILE *login;
+FILE *userDatabase;
 
 struct client
 {
@@ -45,7 +45,7 @@ void connectToServer(int clientSocket, struct sockaddr_in server);
 const char *getCurrentTime();
 void logErrors(char *ErrorString, int errNo);
 void logOperations(char *LogString);
-int checkUserInfo(int ClientCount);
+int checkUserInfo(int ClientSocket);
 
 const char *getCurrentTime() //returns current time and date.
 {
@@ -231,7 +231,7 @@ void connectToServer(int clientSocket, struct sockaddr_in server)
     logOperations(logString);
 }
 
-int checkUserInfo(int ClientSocket) //checks if user is defined in database.
+int checkUserInfo(int ClientSocket) //checks if user is defined in database. Returns 1 if user is valid, 0 otherwise.
 {
     int isValid = 0;
     int clientSocket = ClientSocket;
@@ -239,12 +239,9 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database.
     recv(clientSocket, userInfo, MAX_DATA, 0); //receive user info(ID,password) from client.
 
     char user[20][128];
-    //spliting userInfo for comparing ID and password.
-    //char *usr = strtok(userInfo, " ");
-    //char *pswrd = strtok(NULL, " ");
     printf("\nClient Username and password: %s\n", userInfo);
 
-    if ((login = fopen("login.txt", "r")) == NULL) //opens database.
+    if ((userDatabase = fopen("login.txt", "r")) == NULL) //opens database.
     {
         printf("Error! opening file");
         // Program exits if file pointer returns NULL.
@@ -254,20 +251,20 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database.
     int i = 0; //counter
     int totalUser = 0;
     int found = 0;
-    while (fgets(user[i], 128, login))
+    while (fgets(user[i], 128, userDatabase)) //scans text file and parses users to an array.
     {
         user[i][strlen(user[i]) - 1] = '\0';
         i++;
     }
     totalUser = i;
-    for (i = 0; i < totalUser; ++i)
+    for (i = 0; i < totalUser; ++i) //to compare array elements with received user info.
     {
         if (strcmp(user[i], userInfo) == 0)
         {
             isValid = 1;
             found = 1;
             char info[5]; //port  number
-            sprintf(info, "%d", comPort);
+            sprintf(info, "%d", COM_PORT);
             printf("\nPort info sent to %d\n", clientCount);
             send(clientSocket, info, 1024, 0);
             break;
@@ -281,7 +278,7 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database.
         send(clientSocket, info, MAX_DATA, 0);
         close(clientSocket);
     }
-    fclose(login);
+    fclose(userDatabase);
     memset(&userInfo, 0, sizeof(userInfo));
 
     return isValid;

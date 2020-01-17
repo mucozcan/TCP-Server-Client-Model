@@ -8,7 +8,6 @@ References: https://beej.us/guide/bgnet/html//index.html
 Usage: ./ChatServer [The port number that you want]
 
         in another terminal: ./ChatClient [Port number that you defined.] [username] [password]
-
 Server does all send and receive functions in multithread function sendAndReceive that defined in Chat.h
 */
 
@@ -51,21 +50,21 @@ int main(int argc, char **argv)
     authSocket = createIPv4Socket();
 
     //Defining communication address information.
-    comAddr = defineSocket(comPort); //comPort is a constant port number.
+    comAddr = defineSocket(COM_PORT); //COM_PORT is a constant port number.
     //Defining authentication address information.
     authAddr = defineSocket(authPort); 
     bindSocket(comSocket,comAddr); //binding communication socket
     bindSocket(authSocket,authAddr);//binding authentication socket.
 
-    listenConnections(comSocket,MAX_CLIENT,comPort); //listening incoming connections.
+    listenConnections(comSocket,MAX_CLIENT,COM_PORT); //listening incoming connections.
     listenConnections(authSocket,MAX_CLIENT,authPort); //listening incoming connections.
     
     while (keepRunning)
     {
-        Client[clientCount].sockID = acceptConnection(authSocket,&Client[clientCount],clientCount);
-        if(checkUserInfo(Client[clientCount].sockID) == 1)
+        Client[clientCount].sockID = acceptConnection(authSocket,&Client[clientCount],clientCount); //first, client connects to the auth. port.
+        if(checkUserInfo(Client[clientCount].sockID) == 1) //checks if user info is valid.
         {
-            Client[clientCount].sockID = acceptConnection(comSocket,&Client[clientCount],clientCount);
+            Client[clientCount].sockID = acceptConnection(comSocket,&Client[clientCount],clientCount); //if user is valid, connects user to the com. port
             Client[clientCount].index = clientCount;
 
             //creating thread for client

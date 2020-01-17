@@ -50,11 +50,11 @@ int main(int argc, char **argv)
 {
 	signal(SIGINT,quitHandler); //closing socket and quit.
 
-	struct sockaddr_in serverAddr;
-	struct sockaddr_in authAddr;
+	struct sockaddr_in serverAddr;//for communication.
+	struct sockaddr_in authAddr; //for authentication
 	authSocket = createIPv4Socket();
 	authAddr = defineSocket(atoi(argv[1]));
-	connectToServer(authSocket,authAddr);
+	connectToServer(authSocket,authAddr); //first connects to the auth. port and sends client's info.
 	char *username = argv[2];
 	char *password = argv[3];
 	char userInfo[1024];
@@ -62,18 +62,19 @@ int main(int argc, char **argv)
 	sprintf(userInfo, "%s %s",username,password);
 	send(authSocket,userInfo,1024,0);
 	printf("\nReceiving..\n");
-	int receivedPort = recv(authSocket,serverPortNum,1024,0);
-
-	if(receivedPort == 0 || receivedPort == -1){
+	int receivedPort = recv(authSocket,serverPortNum,1024,0); //if user is valid server sends port number for communication.
+	int serverPort = atoi(serverPortNum);
+	if(serverPort == 0){
 		printf("\nYou are not a valid user\n");
+		exit(1);
 	}
+	printf("\nClosing authentication socket and routing to communication socket...\n");
 	close(authSocket);
 	authSocket = -1;
-	int serverPort = atoi(serverPortNum);
 	printf("\nServer port: %d\n",serverPort);
 	clientSocket = createIPv4Socket();
 	serverAddr = defineSocket(serverPort);
-	connectToServer(clientSocket,serverAddr);
+	connectToServer(clientSocket,serverAddr); //connects to communication socket.
 
 
 	pthread_t thread;
