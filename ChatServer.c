@@ -72,10 +72,7 @@ int main(int argc, char **argv)
             clientCount++;
             continue;
         }
-        
-        
-  
-    
+      
     }
 
 } //end main()

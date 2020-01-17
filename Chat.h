@@ -78,6 +78,7 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
     //assigning new socket descriptor to client's sockID
 
     printf("Client %d connected.\n", index + 1);
+    printf("CLient count: %d\n",clientCount);
     //logging
     char logString[] = "Connected with client ";
     sprintf(logString, "%s %d", logString, index + 1);
@@ -93,11 +94,12 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
         //if the data is "LIST", server sends list of other clients.
         if (strcmp(data, "LIST") == 0)
         {
-
+            int offset = 0;
             for (int i = 0; i < clientCount; i++)
-            {
+            {   
+                printf("clientCount:infor %d",clientCount);
                 if (i != index)
-                    snprintf(output, 1024, "Client %d is at socket %d.", i + 1, Client[i].sockID);
+                    offset += snprintf(output + offset, 1024, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
                 logOperations(output);
             }
 
