@@ -254,9 +254,9 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
     int clientSocket = ClientSocket;
     char userInfo[MAX_DATA];
     recv(clientSocket, userInfo, MAX_DATA, 0); //receive user info(ID,password) from client.
-
+    char *decodedInfo = base64decode(userInfo);
     char user[20][128];
-    printf("\nClient Username and password: %s\n", userInfo);
+    printf("\nClient Username and password: %s\n", decodedInfo);
 
     if ((userDatabase = fopen("login.txt", "r")) == NULL) //opens database.
     {
@@ -276,7 +276,7 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
     totalUser = i;
     for (i = 0; i < totalUser; ++i) //to compare array elements with received user info.
     {
-        if (strcmp(user[i], userInfo) == 0)
+        if (strcmp(user[i], decodedInfo) == 0)
         {
             isValid = 1;
             found = 1;
@@ -296,7 +296,8 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
         close(clientSocket);
     }
     fclose(userDatabase);
-    memset(&userInfo, 0, sizeof(userInfo));
+    free(decodedInfo);
+    //memset(&userInfo, 0, sizeof(decodedInfo));
 
     return isValid;
 }

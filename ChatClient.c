@@ -63,7 +63,9 @@ int main(int argc, char **argv)
 	char userInfo[1024];
 	char serverPortNum[5]; //com port
 	sprintf(userInfo, "%s %s",username,password); //concatenating username and password.
-	send(authSocket,userInfo,1024,0); //send ID and password to authentication server.
+	char *encodedInfo = base64encode(userInfo); //encoding user info.
+	send(authSocket,encodedInfo,1024,0); //send ID and password to authentication server.
+	free(encodedInfo);
 
 	int receivedPort = recv(authSocket,serverPortNum,1024,0); //if user is valid server sends port number for communication.
 	int serverPort = atoi(serverPortNum);
