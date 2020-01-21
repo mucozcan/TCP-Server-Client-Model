@@ -2,17 +2,23 @@
 #define CHAT_H
 
 #include <stdio.h>
-
+#include <stdint.h>
+#include <stdlib.h>
 //for error handling
 #include <errno.h>
 #include <sys/time.h>
 #include <stdbool.h>
+//for Base64 encoding & decoding
+#include <openssl/crypto.h>
+#include <openssl/err.h>
+#include <openssl/bio.h>
+#include <openssl/pem.h>
 
 #define ERROR -1
 #define MAX_DATA 1024
 #define MAX_CLIENT 1024
 #define MAX_THREAD 1024
-#define COM_PORT  5880 //constant communication port for authorized users.
+#define COM_PORT 5880 //constant communication port for authorized users.
 
 int clientCount = 0;
 
@@ -26,12 +32,13 @@ struct client
     int sockID;
     struct sockaddr_in clientAddr;
     int len;
-    int validUser;
+    //int validUser;
 };
 
 struct client Client[MAX_CLIENT];
 pthread_t thread[MAX_THREAD]; //thread that handles communication.
-//pthread_t authThread[MAX_THREAD]; //thread that handles authentication.
+
+
 
 //Functions
 void *sendAndReceive(void *ClientDetail);
@@ -46,6 +53,9 @@ const char *getCurrentTime();
 void logErrors(char *ErrorString, int errNo);
 void logOperations(char *LogString);
 int checkUserInfo(int ClientSocket);
+char *base64encode (const void *messageToEncode);
+char *base64decode (const void *messageToDecode);
+
 
 const char *getCurrentTime() //returns current time and date.
 {
@@ -78,7 +88,7 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
     //assigning new socket descriptor to client's sockID
 
     printf("Client %d connected.\n", index + 1);
-    printf("CLient count: %d\n",clientCount);
+    printf("CLient count: %d\n", clientCount);
     //logging
     char logString[] = "Connected with client ";
     sprintf(logString, "%s %d", logString, index + 1);
@@ -96,19 +106,16 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
         {
             int offset = 0;
             for (int i = 0; i < clientCount; i++)
-            {   
+            {
                 if (i != index)
                     offset += snprintf(output + offset, 1024, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
                 logOperations(output);
             }
-            
-            for(int i = 0; (i < 100 && output[i] != '\0'); i++) //Decryption the message.
-            {
-                output[i] = output[i] + 3; //the key for encryption is 3 that is subtracted to ASCII value
 
-            }
+            char *encodedOutput = base64encode(output);
 
-            send(clientSocket, output, MAX_DATA, 0);
+            send(clientSocket, encodedOutput, MAX_DATA, 0);
+            free(encodedOutput); //Frees up the memory holding base64 encoded data.
             continue;
         }
         //if the data is "SEND", server sends message to client(ID)
@@ -120,8 +127,8 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
 
             read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
             data[read] = '\0';
-            printf("\nDATA from socket %d to socket %d: %s\n",clientSocket,Client[id].sockID,data); //printing encyrpted message.
-            send(Client[id].sockID, data, MAX_DATA, 0); //send message to client(ID).
+            printf("\nDATA from socket %d to socket %d: %s\n", clientSocket, Client[id].sockID, data); //printing encyrpted message.
+            send(Client[id].sockID, data, MAX_DATA, 0);                                                //send message to client(ID).
             sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
             logOperations(data);
         }
@@ -146,17 +153,10 @@ void *receiveMessages(void *sockID)
             exit(1);
         }
         data[read] = '\0';
-        
-        for(int i = 0; (i < 100 && data[i] != '\0'); i++) //Decryption the message.
-        {
-            data[i] = data[i] - 3; //the key for encryption is 3 that is subtracted to ASCII value
 
-        }
-        printf("%s\n", data);
-
-        
-        
-    
+        char *decodedMessage  = base64decode(data);
+        printf("%s\n", decodedMessage);
+        free(decodedMessage); //Frees up the memory holding base64 decoded data.
     }
 }
 
@@ -299,6 +299,41 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
     memset(&userInfo, 0, sizeof(userInfo));
 
     return isValid;
+}
+
+char *base64encode (const void *messageToEncode){
+    int lengthOfMessage = strlen(messageToEncode);
+    BIO *b64_bio, *mem_bio;      //Declares two OpenSSL BIOs: a base64 filter and a memory BIO.
+    BUF_MEM *mem_bio_mem_ptr;    //Pointer to a "memory BIO" structure holding our base64 data.
+    b64_bio = BIO_new(BIO_f_base64());                      //Initialize our base64 filter BIO.
+    mem_bio = BIO_new(BIO_s_mem());                           //Initialize our memory sink BIO.
+    BIO_push(b64_bio, mem_bio);            //Link the BIOs by creating a filter-sink BIO chain.
+    BIO_set_flags(b64_bio, BIO_FLAGS_BASE64_NO_NL);  //No newlines every 64 characters or less.
+    BIO_write(b64_bio, messageToEncode, lengthOfMessage); //Records base64 encoded data.
+    BIO_flush(b64_bio);   //Flush data.  Necessary for b64 encoding, because of pad characters.
+    BIO_get_mem_ptr(mem_bio, &mem_bio_mem_ptr);  //Store address of mem_bio's memory structure.
+    BIO_set_close(mem_bio, BIO_NOCLOSE);   //Permit access to mem_ptr after BIOs are destroyed.
+    BIO_free_all(b64_bio);  //Destroys all BIOs in chain, starting with b64 (i.e. the 1st one).
+    BUF_MEM_grow(mem_bio_mem_ptr, (*mem_bio_mem_ptr).length + 1);   //Makes space for end null.
+    (*mem_bio_mem_ptr).data[(*mem_bio_mem_ptr).length] = '\0';  //Adds null-terminator to tail.
+    return (*mem_bio_mem_ptr).data; //Returns base-64 encoded data. (See: "buf_mem_st" struct).
+}
+
+char *base64decode (const void *messageToDecode){
+     int lengthOfMessage = strlen(messageToDecode);
+    BIO *b64_bio, *mem_bio;      //Declares two OpenSSL BIOs: a base64 filter and a memory BIO.
+    char *base64_decoded = calloc( (lengthOfMessage*3)/4+1, sizeof(char) ); //+1 = null.
+    b64_bio = BIO_new(BIO_f_base64());                      //Initialize our base64 filter BIO.
+    mem_bio = BIO_new(BIO_s_mem());                         //Initialize our memory source BIO.
+    BIO_write(mem_bio, messageToDecode, lengthOfMessage); //Base64 data saved in source.
+    BIO_push(b64_bio, mem_bio);          //Link the BIOs by creating a filter-source BIO chain.
+    BIO_set_flags(b64_bio, BIO_FLAGS_BASE64_NO_NL);          //Don't require trailing newlines.
+    int decoded_byte_index = 0;   //Index where the next base64_decoded byte should be written.
+    while ( 0 < BIO_read(b64_bio, base64_decoded+decoded_byte_index, 1) ){ //Read byte-by-byte.
+        decoded_byte_index++; //Increment the index until read of BIO decoded data is complete.
+    } //Once we're done reading decoded data, BIO_read returns -1 even though there's no error.
+    BIO_free_all(b64_bio);  //Destroys all BIOs in chain, starting with b64 (i.e. the 1st one).
+    return base64_decoded;        //Returns base-64 decoded data with trailing null terminator.
 }
 
 #endif

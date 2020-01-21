@@ -4426,3 +4426,67 @@ Socket: 3 is closed, Closing application..., Fri Jan 17 17:15:47 2020
 Socket: 3 is closed, Closing application..., Fri Jan 17 17:15:49 2020
 Connection lost with server, Fri Jan 17 17:15:49 2020
 Connection lost with server, Fri Jan 17 17:15:49 2020
+Created socket, Tue Jan 21 17:38:13 2020
+Created socket, Tue Jan 21 17:38:13 2020
+Socket address info is defined., Tue Jan 21 17:38:13 2020
+Socket address info is defined., Tue Jan 21 17:38:13 2020
+Socket is binded., Tue Jan 21 17:38:13 2020
+Socket is binded., Tue Jan 21 17:38:13 2020
+Server started listening on port  5880, Tue Jan 21 17:38:13 2020
+Server started listening on port  8085, Tue Jan 21 17:38:13 2020
+Created socket, Tue Jan 21 17:38:16 2020
+Socket address info is defined., Tue Jan 21 17:38:16 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:38:16 2020
+Created socket, Tue Jan 21 17:38:16 2020
+Socket address info is defined., Tue Jan 21 17:38:16 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:38:16 2020
+Connected with client  1, Tue Jan 21 17:38:16 2020
+Created socket, Tue Jan 21 17:38:19 2020
+Socket address info is defined., Tue Jan 21 17:38:19 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:38:19 2020
+Created socket, Tue Jan 21 17:38:19 2020
+Socket address info is defined., Tue Jan 21 17:38:19 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:38:19 2020
+Connected with client  2, Tue Jan 21 17:38:19 2020
+, Tue Jan 21 17:38:24 2020
+Client 2 is at socket 8.
+, Tue Jan 21 17:38:24 2020
+IFNFTEFN, sent from client 1 to client 2, Tue Jan 21 17:38:27 2020
+IG1lcmhhYmFsYXIgYXE=, sent from client 2 to client 1, Tue Jan 21 17:38:40 2020
+Socket: 3 is closed, Closing application..., Tue Jan 21 17:38:46 2020
+Socket: 3 is closed, Closing application..., Tue Jan 21 17:38:47 2020
+Socket: 3 is closed, Closing application..., Tue Jan 21 17:38:57 2020
+Created socket, Tue Jan 21 17:43:13 2020
+Created socket, Tue Jan 21 17:43:13 2020
+Socket address info is defined., Tue Jan 21 17:43:13 2020
+Socket address info is defined., Tue Jan 21 17:43:13 2020
+Socket is binded., Tue Jan 21 17:43:13 2020
+Socket is binded., Tue Jan 21 17:43:13 2020
+Server started listening on port  5880, Tue Jan 21 17:43:13 2020
+Server started listening on port  8085, Tue Jan 21 17:43:13 2020
+Created socket, Tue Jan 21 17:43:16 2020
+Socket address info is defined., Tue Jan 21 17:43:16 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:43:16 2020
+Created socket, Tue Jan 21 17:43:16 2020
+Socket address info is defined., Tue Jan 21 17:43:16 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:43:16 2020
+Connected with client  1, Tue Jan 21 17:43:16 2020
+Created socket, Tue Jan 21 17:43:22 2020
+Socket address info is defined., Tue Jan 21 17:43:22 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:43:22 2020
+Created socket, Tue Jan 21 17:43:22 2020
+Socket address info is defined., Tue Jan 21 17:43:22 2020
+Connection established between server and client at socket 3, Tue Jan 21 17:43:22 2020
+Connected with client  2, Tue Jan 21 17:43:22 2020
+, Tue Jan 21 17:43:25 2020
+Client 2 is at socket 8.
+, Tue Jan 21 17:43:25 2020
+IG1lcmhhYmE=, sent from client 2 to client 2, Tue Jan 21 17:43:31 2020
+IG1lcmhhYmE=, sent from client 2 to client 1, Tue Jan 21 17:43:40 2020
+Socket: 3 is closed, Closing application..., Tue Jan 21 17:43:42 2020
+Socket: 3 is closed, Closing application..., Tue Jan 21 17:43:45 2020
+Connection lost with server, Tue Jan 21 17:43:45 2020
+Created socket, Tue Jan 21 17:44:05 2020
+Created socket, Tue Jan 21 17:44:05 2020
+Socket address info is defined., Tue Jan 21 17:44:05 2020
+Socket address info is defined., Tue Jan 21 17:44:05 2020

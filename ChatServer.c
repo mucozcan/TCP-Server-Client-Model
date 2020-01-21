@@ -4,6 +4,7 @@ Author: Mücteba Özcan.
 References: https://beej.us/guide/bgnet/html//index.html
             https://www.ozanselte.com/c-ile-soket-programlama-rehberi/
             https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+            http://doctrina.org/Base64-With-OpenSSL-C-API.html
 
 Usage: ./ChatServer [The port number that you want]
 

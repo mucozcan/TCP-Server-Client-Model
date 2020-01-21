@@ -4,6 +4,7 @@ Author: Mücteba Özcan.
 References: https://beej.us/guide/bgnet/html//index.html
             https://www.ozanselte.com/c-ile-soket-programlama-rehberi/
             https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+			http://doctrina.org/Base64-With-OpenSSL-C-API.html
 
 Usage: ./ChatServer [The port number that you want]
 
@@ -104,12 +105,10 @@ int main(int argc, char **argv)
 			send(clientSocket,input,1024,0); //send ID of other client to server for communicating.
 			
 			scanf("%[^\n]s",input);
-		
-			for(int i = 0; (i<MAX_DATA && input[i]!='\0'); i++) //encryption the message(Caesar Cypher Algorithm)
-			{
-				input[i] = input[i] + 3; //the key for encryption is 3 that is added to ASCII value
-			}	
-			send(clientSocket,input,1024,0); //send message to server.
+
+			char *encodedMessage = base64encode(input);
+			send(clientSocket,encodedMessage,1024,0); //send message to server.
+			free(encodedMessage); //Frees up the memory holding base64 encoded data.
 
 		}
 	}
