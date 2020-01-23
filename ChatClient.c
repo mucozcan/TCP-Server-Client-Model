@@ -21,7 +21,6 @@ Clients send them encrypted messages so server can't see the content of a messag
 
 */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -35,83 +34,84 @@ Clients send them encrypted messages so server can't see the content of a messag
 #include <signal.h>
 #include "Chat.h"
 
-static volatile int keepRunning = 1;
-static int clientSocket;
-static int authSocket;
+static int keepRunning = 1;
+static int clientSocket; //communication socket.
+static int authSocket;   //authentication socket.
 
-void quitHandler(int client)
+void quitHandler(int client) //function that handles ^C.
 {
-    keepRunning = 0;
-    close(clientSocket); //closing socket.
+	keepRunning = 0;
+	close(clientSocket); //closing socket.
 	char logString[256];
-    printf("\nSocket: %d is closed\nClosing application... Operations and errors logged.\n",clientSocket);
-    sprintf(logString,"Socket: %d is closed, Closing application...",clientSocket);
-    logOperations(logString);
-    exit(1);
+	printf("\nSocket: %d is closed\nClosing application... Operations and errors logged.\n", clientSocket);
+	sprintf(logString, "Socket: %d is closed, Closing application...", clientSocket);
+	logOperations(logString);
+	exit(1);
 }
 int main(int argc, char **argv)
 {
-	signal(SIGINT,quitHandler); //closing socket and quit.
+	signal(SIGINT, quitHandler); //closing socket and quit.
 
-	struct sockaddr_in serverAddr;//for communication.
-	struct sockaddr_in authAddr; //for authentication
+	struct sockaddr_in serverAddr; //for communication.
+	struct sockaddr_in authAddr;   //for authentication
 	authSocket = createIPv4Socket();
-	authAddr = defineSocket(atoi(argv[1]));
-	connectToServer(authSocket,authAddr); //first connects to the auth. port and sends client's info.
+	authAddr = defineSocket(atoi(argv[1])); //taking authentication port as parameter.
+	connectToServer(authSocket, authAddr);  //first connects to the auth. port and sends client's info.
 	char *username = argv[2];
 	char *password = argv[3];
-	char userInfo[1024];
-	char serverPortNum[5]; //com port
-	sprintf(userInfo, "%s %s",username,password); //concatenating username and password.
-	char *encodedInfo = base64encode(userInfo); //encoding user info.
-	send(authSocket,encodedInfo,1024,0); //send ID and password to authentication server.
+	char userInfo[MAX_DATA];
+	char serverPortNum[5];							//com port
+	sprintf(userInfo, "%s %s", username, password); //concatenating username and password.
+	char *encodedInfo = base64encode(userInfo);		//encoding user info.
+	send(authSocket, encodedInfo, MAX_DATA, 0);		//send ID and password to authentication server.
 	free(encodedInfo);
 
-	int receivedPort = recv(authSocket,serverPortNum,1024,0); //if user is valid server sends port number for communication.
+	int receivedPort = recv(authSocket, serverPortNum, MAX_DATA, 0); //if user is valid server sends port number for communication.
 	int serverPort = atoi(serverPortNum);
-	if(serverPort == 0){
+	if (serverPort == 0)
+	{
 		printf("\nYou are not a valid user\n");
 		exit(1);
 	}
 	printf("\nClosing authentication socket and routing to communication socket...\n");
 	close(authSocket);
 	authSocket = -1;
-	printf("\nServer port: %d\n",serverPort);
+	printf("\nServer port: %d\n", serverPort);
 	clientSocket = createIPv4Socket();
 	serverAddr = defineSocket(serverPort);
-	connectToServer(clientSocket,serverAddr); //connects to communication socket.
-
+	connectToServer(clientSocket, serverAddr); //connects to communication socket.
 
 	pthread_t thread;
-	pthread_create(&thread, NULL, receiveMessages, (void *) &clientSocket );
+	pthread_create(&thread, NULL, receiveMessages, (void *)&clientSocket); //creating thread that receive messages for each client.
 
-	while(keepRunning){
+	while (keepRunning)
+	{
 
-		char input[1024];
-		scanf("%s",input);
-		if(strcmp(input, "EXIT") == 0)
+		char input[MAX_DATA];
+		scanf("%s", input);
+		if (strcmp(input, "EXIT") == 0)
 		{
 			break;
 		}
 
-		if(strcmp(input,"LIST") == 0){
+		if (strcmp(input, "LIST") == 0)
+		{
 
-			send(clientSocket,input,1024,0); //send LIST command to server.
-
+			send(clientSocket, input, MAX_DATA, 0); //send LIST command to server.
 		}
-		if(strcmp(input,"SEND") == 0){
+		if (strcmp(input, "SEND") == 0)
+		{
 
-			send(clientSocket,input,1024,0); //send SEND command to server.
-			
-			scanf("%s",input);
-			send(clientSocket,input,1024,0); //send ID of other client to server for communicating.
-			
-			scanf("%[^\n]s",input);
+			send(clientSocket, input, MAX_DATA, 0); //send SEND command to server.
+
+			scanf("%s", input);
+			send(clientSocket, input, MAX_DATA, 0); //send ID of other client to server for communicating.
+
+			scanf("%[^\n]s", input);
 
 			char *encodedMessage = base64encode(input);
-			send(clientSocket,encodedMessage,1024,0); //send message to server.
-			free(encodedMessage); //Frees up the memory holding base64 encoded data.
-
+			send(clientSocket, encodedMessage, MAX_DATA, 0); //send message to server.
+			free(encodedMessage);							 //Frees up the memory holding base64 encoded data.
 		}
 	}
 }

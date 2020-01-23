@@ -36,7 +36,7 @@ struct client
 };
 
 struct client Client[MAX_CLIENT];
-pthread_t thread[MAX_THREAD]; //thread that handles communication.
+pthread_t thread[MAX_THREAD]; //thread that handles communication for each client.
 
 
 
@@ -79,18 +79,16 @@ void logOperations(char *LogString)
     fclose(logFile);
 }
 void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct as parameter and run send and receive functions
-                                         //between clients.
+                                         //between clients. Runs on server.
 {
     struct client *clientDetail = (struct client *)ClientDetail; //assigning param to a client struct.
     int index = clientDetail->index;
     int clientSocket = clientDetail->sockID;
 
-    //assigning new socket descriptor to client's sockID
-
     printf("Client %d connected.\n", index + 1);
     printf("CLient count: %d\n", clientCount);
     //logging
-    char logString[] = "Connected with client ";
+    char logString[] = "Connected with client";
     sprintf(logString, "%s %d", logString, index + 1);
     logOperations(logString);
 
@@ -108,7 +106,7 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
             for (int i = 0; i < clientCount; i++)
             {
                 if (i != index)
-                    offset += snprintf(output + offset, 1024, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
+                    offset += snprintf(output + offset, MAX_DATA, "Client %d is at socket %d.\n", i + 1, Client[i].sockID);
                 logOperations(output);
             }
 
@@ -127,8 +125,9 @@ void *sendAndReceive(void *ClientDetail) //thread function. Takes client struct 
 
             read = recv(clientSocket, data, MAX_DATA, 0); //read message from client
             data[read] = '\0';
-            printf("\nDATA from socket %d to socket %d: %s\n", clientSocket, Client[id].sockID, data); //printing encyrpted message.
+            printf("\nDATA from socket %d to socket %d: %s\n", clientSocket, Client[id].sockID, data); //printing encrypted message.
             send(Client[id].sockID, data, MAX_DATA, 0);                                                //send message to client(ID).
+
             sprintf(data, "%s, sent from client %d to client %d", data, index + 1, Client[id].index + 1);
             logOperations(data);
         }
@@ -160,8 +159,8 @@ void *receiveMessages(void *sockID)
     }
 }
 
-//creating a socket
-int createIPv4Socket()
+
+int createIPv4Socket() //creating a socket
 {
     //int socket(int domain, int type, int protocol), returns -1 in case of error.
     int sockfd = socket(AF_INET, SOCK_STREAM, 0); //AF_INET = IPv4 Socket, SOCK_STREAM = TCP, 0 = IP Protocol
@@ -174,18 +173,18 @@ int createIPv4Socket()
     logOperations("Created socket");
     return sockfd;
 }
-//Defining server's address information.
-struct sockaddr_in defineSocket(int port)
+
+struct sockaddr_in defineSocket(int port) //Defining server's address information.
 {
     struct sockaddr_in Server;
     Server.sin_family = AF_INET;
     Server.sin_port = htons(port); //takes port number as an argument.
                                    //htons is used for converting native byte order
-                                   //to network byte order.(little-endian to big-endian)
+                                   //to network byte order.(little-endian to big-endian).
 
     Server.sin_addr.s_addr = htons(INADDR_ANY); //INADDR_ANY is used when you don't need to bind a socket to a specific IP.
                                                 //When you use this value as the address when calling bind(),
-                                                //the socket accepts connections to all the IPs of the machine
+                                                //the socket accepts connections to all the IPs of the machine.
     printf("Socket address info is defined.\n");
     logOperations("Socket address info is defined.");
 
@@ -248,7 +247,7 @@ void connectToServer(int clientSocket, struct sockaddr_in server)
     logOperations(logString);
 }
 
-int checkUserInfo(int ClientSocket) //checks if user is defined in database. Returns 1 if user is valid, 0 otherwise.
+int checkUserInfo(int ClientSocket) //checks if user is defined in database(login.txt). Returns 1 if user is valid, 0 otherwise.
 {
     int isValid = 0;
     int clientSocket = ClientSocket;
@@ -281,7 +280,7 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
         i++;
     }
     totalUser = i;
-    for (i = 0; i < totalUser; ++i) //to compare array elements with received user info.
+    for (i = 0; i < totalUser; ++i) //for comparing array elements with received user info.
     {
         if (strcmp(user[i], decodedInfo) == 0)
         {
@@ -290,7 +289,7 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
             char info[5]; //port  number
             sprintf(info, "%d", COM_PORT);
             printf("\nPort info sent to %d\n", clientCount);
-            send(clientSocket, info, 1024, 0);
+            send(clientSocket, info, MAX_DATA, 0);
             
             char log[] = "Permission granted -";
             sprintf(log,"%s %s",log,decodedInfo);
