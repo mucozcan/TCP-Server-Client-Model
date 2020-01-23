@@ -257,10 +257,17 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
     char *decodedInfo = base64decode(userInfo);
     char user[20][128];
     printf("\nClient Username and password: %s\n", decodedInfo);
+    char log[] = "Connection request -";
+    sprintf(log,"%s %s",log,decodedInfo);
+    logOperations(log);
+    
 
     if ((userDatabase = fopen("login.txt", "r")) == NULL) //opens database.
     {
         printf("Error! opening file");
+        char log[] = "Error opening file - login.txt";
+        logErrors(log,2);
+
         // Program exits if file pointer returns NULL.
         exit(1);
     }
@@ -284,6 +291,11 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
             sprintf(info, "%d", COM_PORT);
             printf("\nPort info sent to %d\n", clientCount);
             send(clientSocket, info, 1024, 0);
+            
+            char log[] = "Permission granted -";
+            sprintf(log,"%s %s",log,decodedInfo);
+            logOperations(log);
+
             break;
         }
     }
@@ -293,11 +305,15 @@ int checkUserInfo(int ClientSocket) //checks if user is defined in database. Ret
         printf("\nInvalid username or password\n");
         char info[] = "\nInvalid username or password.\n";
         send(clientSocket, info, MAX_DATA, 0);
+
+        char log[] = "Permission denied -";
+        sprintf(log,"%s %s",log,decodedInfo);
+        logOperations(log);
+
         close(clientSocket);
     }
     fclose(userDatabase);
     free(decodedInfo);
-    //memset(&userInfo, 0, sizeof(decodedInfo));
 
     return isValid;
 }
