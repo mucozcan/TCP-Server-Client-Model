@@ -8,4 +8,4 @@ $ gcc ChatClient.c -o ChatClient -lpthread -lssl -lcrypto
 ```
 ## How to use?
 ![1](screenshots/1.png)
-![2](screenshots/2.png)
+ ![2](screenshots/2.png)
