@@ -6,3 +6,5 @@ While compiling, you need to specify the libraries that used for multithread and
 $ gcc ChatServer.c -o ChatServer -lpthread -lssl -lcrypto
 $ gcc ChatClient.c -o ChatClient -lpthread -lssl -lcrypto
 ```
+## How to use?
+![alt text][https://ibb.co/Hx2p1B3]
