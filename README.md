@@ -7,4 +7,4 @@ $ gcc ChatServer.c -o ChatServer -lpthread -lssl -lcrypto
 $ gcc ChatClient.c -o ChatClient -lpthread -lssl -lcrypto
 ```
 ## How to use?
-![Alt Text](screenshots/Screenshot from 2020-01-31 22-16-20.png)
+![1](screenshots/1.png)  ![2](screenshots/2.png)
